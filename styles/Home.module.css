@@ -39,9 +39,11 @@
 }
 
 .title {
+  display: flex;
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  flex-grow: 1;
 }
 
 .title,
