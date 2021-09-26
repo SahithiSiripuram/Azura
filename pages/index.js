@@ -15,15 +15,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="#">T&amp;P helpdesk</a> of CMRCET
-        </h1>
-
-        <p className={styles.description}>
-          This is your one stop solution for all your Training and Placements related doubts
-        </p>
-
         <div className={styles.grid}>
+            <h1 className={styles.title}>
+              Welcome to <span>T&amp;P helpdesk</span> of CMRCET
+            </h1>
+            <p className={styles.description}>
+              This is your one stop solution for all your Training and Placements related doubts
+            </p>
           <a href="#" className={styles.card}>
             <h2>Resources &amp; Training Schedules &rarr;</h2>
             <p>
