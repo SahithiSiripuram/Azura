@@ -13,15 +13,16 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
-
-      <main className={styles.main}>
-        <div className={styles.grid}>
-            <h1 className={styles.title}>
+      <header className={styles.header}>
+          <h1 className={styles.title}>
               Welcome to <span>T&amp;P helpdesk</span> of CMRCET
             </h1>
             <p className={styles.description}>
               This is your one stop solution for all your Training and Placements related doubts
             </p>
+      </header>
+      <main className={styles.main}>
+        <div className={styles.grid}>
           <a href="#" className={styles.card}>
             <h2>Resources &amp; Training Schedules &rarr;</h2>
             <p>
@@ -39,7 +40,7 @@ export default function Home() {
             <p>Click here to see the upcoming drives</p>
           </a>
 
-          <a href="#" className={styles.card}>
+          <a href="/team" className={styles.card}>
             <h2>Our team &rarr;</h2>
             <p>Click here to see our T&amp;P team and reach out to them</p>
           </a>
