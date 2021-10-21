@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Header from './header'
 import Footer from './footer'
 import styles from '../styles/Home.module.css'
@@ -26,30 +27,40 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a href="#" className={styles.card}>
-            <h2>Resources &rarr;</h2>
-            <p>
-              Click here to find company specific resources
-            </p>
-          </a>
-          <a href="#" className={styles.card}>
-            <h2>Training Schedules &rarr;</h2>
-            <p>
+          <Link href="./resources">
+            <a className={styles.card}>
+              <h2>Resources &rarr;</h2>
+              <p>
+                Click here to find company specific resources
+              </p>
+            </a>
+          </Link>
+          <Link href="./schedules">
+            <a className={styles.card}>
+              <h2>Training Schedules &rarr;</h2>
+              <p>
               Click here for training schedules and links
-            </p>
-          </a>
-          <a href="#" className={styles.card}>
+              </p>
+            </a>
+          </Link>
+          <Link href="./bulletin" >
+          <a className={styles.card}>
             <h2>Monthly Bulletin &rarr;</h2>
             <p>Click here to see trainings, placements and selects of last month</p>
           </a>
-          <a href="#" className={styles.card}>
+          </Link>
+          <Link href="./drives" >
+          <a className={styles.card}>
             <h2>Upcoming Drives &rarr;</h2>
             <p>Click here to see the upcoming drives</p>
           </a>
-          <a href="/team" className={styles.card}>
+          </Link>
+          <Link href="/team" >
+          <a className={styles.card}>
             <h2>Our team &rarr;</h2>
             <p>Click here to see our T&amp;P team and reach out to them</p>
           </a>
+          </Link>
         </div>
       </main>
       <Footer/>

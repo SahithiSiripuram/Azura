@@ -36,13 +36,14 @@
   align-items: center;
   flex-grow: 1;
   padding-top: 2%;
+  padding-bottom: 2%;
 }
 .header a{
   display: inline-block;
   padding: 1%;
   color: #ff821f;
 }
-.header a:hover, .header a:active{
+.header a:hover{
   color: #92c741;
   border-bottom: 1px solid #92c741;
 }
