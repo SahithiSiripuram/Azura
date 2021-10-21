@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import Header from './header'
 import Footer from './footer'
 
-function Bulletin(){
+function Schedules(){
     return(
         <div className={styles.container}>
         <Head>
@@ -20,4 +20,4 @@ function Bulletin(){
         </div>
     )
 }
-export default Bulletin
+export default Schedules

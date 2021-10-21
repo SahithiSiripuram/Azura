@@ -1,11 +1,9 @@
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .main {
@@ -26,27 +24,27 @@
   justify-content: center;
   align-items: center;
 }
-.footer:hover,
-.footer:focus,
-.footer:active {
+.footer:hover{
   color: #92c741;
   border-color: #92c741;
 }
 
 .header {
   width: 100%;
-  height: 100px;
-  display: block;
-  color: aliceblue;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
   padding-top: 2%;
 }
-.header span:hover,
-.header span:focus,
-.header span:active {
+.header a{
+  display: inline-block;
+  padding: 1%;
+  color: #ff821f;
+}
+.header a:hover, .header a:active{
   color: #92c741;
+  border-bottom: 1px solid #92c741;
 }
 
 .title span{
@@ -62,15 +60,11 @@
   font-weight: 300;
   font-size: 40px;
   color: aliceblue;
-  -webkit-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
 }
 
 .title,
 .description {
   text-align: center;
-  padding-bottom: 0.7em;
 }
 
 .description {
@@ -80,11 +74,9 @@
 
 .grid {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 3rem;
 }
 
 .card {
@@ -100,7 +92,6 @@
 }
 
 .card:hover,
-.card:focus,
 .card:active {
   color: #92c741;
   border-color: #92c741;
@@ -109,15 +100,24 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  text-align: center;
 }
 
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+.intro{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding-top: 2%;
 }
