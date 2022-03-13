@@ -15,41 +15,8 @@
   align-items: center;
 }
 
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #ff821f;
-  display: flex;
-  color: #ff821f;
-  justify-content: center;
-  align-items: center;
-}
-.footer:hover{
-  color: #92c741;
-  border-color: #92c741;
-}
-
-.header {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-.header a{
-  display: inline-block;
-  padding: 1%;
-  color: #ff821f;
-}
-.header a:hover{
-  color: #92c741;
-  border-bottom: 1px solid #92c741;
-}
-
 .title span{
-  color: #ff821f;
+  color: #1A74E2;
   text-decoration: none;
 }
 
@@ -73,6 +40,12 @@
   font-size: 1.5rem;
 }
 
+.card .heading{
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: #1A74E2;
+}
+
 .grid {
   display: flex;
   justify-content: center;
@@ -86,7 +59,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #ff821f;
+  border: 1px solid #1A74E2;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
@@ -94,8 +67,7 @@
 
 .card:hover,
 .card:active {
-  color: #92c741;
-  border-color: #92c741;
+  border-color: #6BD0FF;
 }
 
 .card h2 {
@@ -106,6 +78,7 @@
 
 .card p {
   margin: 0;
+  padding: 0.25rem;
   font-size: 1.25rem;
   line-height: 1.5;
   text-align: center;

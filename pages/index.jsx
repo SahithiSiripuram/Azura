@@ -1,69 +1,45 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Header from './header'
-import Footer from './footer'
 import styles from '../styles/Home.module.css'
+import Countdown from './countdown'
+import Technical from './technical'
+import Nontechnical from './nontechnical'
+import Stalls from './stalls'
+import Team from './team'
+import Address from './address'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>T&amp;P helpdesk</title>
-        <meta name="description" content="Your one stop solution for all your questions related to t&amp;p" />
+        <title>Azura 2k22</title>
+        <meta name="description" content="Annual technical symposium of CMRCET" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
-      <Header/>
       <div className={styles.intro}>
           <h1 className={styles.title}>
-              Welcome to <span>T&amp;P helpdesk</span> of CMRCET
+              <span>Azura</span> 2k22
             </h1>
             <p className={styles.description}>
-              This is your one stop solution for all your Training and Placements related doubts
+              Annual technical symposium of CMRCET
+            </p>
+            <p className={styles.description}>
+              26th March 2022
             </p>
       </div>
       <main className={styles.main}>
         <div className={styles.grid}>
-          <Link href="./resources">
-            <a className={styles.card}>
-              <h2>Resources &rarr;</h2>
-              <p>
-                Click here to find company specific resources
-              </p>
-            </a>
-          </Link>
-          <Link href="./schedules">
-            <a className={styles.card}>
-              <h2>Training Schedules &rarr;</h2>
-              <p>
-              Click here for training schedules and links
-              </p>
-            </a>
-          </Link>
-          <Link href="./bulletin" >
-          <a className={styles.card}>
-            <h2>Monthly Bulletin &rarr;</h2>
-            <p>Click here to see trainings, placements and selects of last month</p>
-          </a>
-          </Link>
-          <Link href="./drives" >
-          <a className={styles.card}>
-            <h2>Upcoming Drives &rarr;</h2>
-            <p>Click here to see the upcoming drives</p>
-          </a>
-          </Link>
-          <Link href="/team" >
-          <a className={styles.card}>
-            <h2>Our team &rarr;</h2>
-            <p>Click here to see our T&amp;P team and reach out to them</p>
-          </a>
-          </Link>
+          <Countdown/>
+          <Technical/>
+          <Nontechnical/>
+          <Stalls/>
+          <Team/>
+          <Address/>
         </div>
       </main>
-      <Footer/>
     </div>
   )
 }
