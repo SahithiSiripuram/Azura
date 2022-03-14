@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
       <div className={styles.intro}>
           <h1 className={styles.title}>
-              <span>Azura</span> 2k22
+              <span style={{fontSize:"9rem"}}>Azura</span> 2k22
             </h1>
             <p className={styles.description}>
               Annual technical symposium of CMRCET
@@ -32,12 +32,24 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <div className={styles.grid}>
-          <Countdown/>
-          <Technical/>
-          <Nontechnical/>
-          <Stalls/>
-          <Team/>
-          <Address/>
+          <div>
+            <Countdown/>
+          </div>
+          <div>
+            <Technical/>
+          </div>
+          <div>
+            <Nontechnical/>
+          </div>
+          <div>
+            <Stalls/>
+          </div>
+          <div>
+            <Team/>
+          </div>
+          <div>
+            <Address/>
+          </div>
         </div>
       </main>
     </div>

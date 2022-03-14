@@ -1,64 +1,40 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import ReactCardFlip from 'react-card-flip';
+import TeamData from './TeamData.json'
+import React from 'react';
 import {FaPhoneAlt} from "react-icons/fa"
-import sampleImg from '../public/android-chrome-512x512.png'
 
-function Team(){
+
+const Card = ({ team }) => {
+    return (
+        <div
+          onClick={() => setIsFlipped((prev) => !prev)}
+          className={styles.card}
+        >
+          <div>
+            <p className={styles.heading}>{team.name}</p>
+            <p className={styles.description}>{team.department}</p>
+            <p className={styles.description}>
+                <a href="tel:{team.mobile}">
+                    <FaPhoneAlt/>
+                </a>
+            </p>
+          </div>
+        </div>
+    );
+  };
+const Team = () => {
     return(
         <div className={styles.container}>
         <div className={styles.intro}>
-            <h1 className={styles.title}><span>Student Coordinators</span> for Azura 2k22</h1>
+            <h1 className={styles.title}><span>Student coordinators</span> for Azura 2k22</h1>
         </div>
         <main className={styles.main}>
             <div className={styles.grid}>
-                <div className={styles.card}>
-                    <Image src={sampleImg}/>
-                    <p className={styles.description}>Student name</p>
-                    <p className={styles.description}>3rd year, ECE</p>
-                    <p className={styles.description}>
-                        <a href="tel:+91 9704909222"><FaPhoneAlt/></a>
-                    </p>
-                </div>
-                <div className={styles.card}>
-                    <Image src={sampleImg}/>
-                    <p className={styles.description}>Student name</p>
-                    <p className={styles.description}>3rd year, ECE</p>
-                    <p className={styles.description}>
-                        <a href="tel:+91 9704909222"><FaPhoneAlt/></a>
-                    </p>
-                </div>
-                <div className={styles.card}>
-                    <Image src={sampleImg}/>
-                    <p className={styles.description}>Student name</p>
-                    <p className={styles.description}>3rd year, ECE</p>
-                    <p className={styles.description}>
-                        <a href="tel:+91 9704909222"><FaPhoneAlt/></a>
-                    </p>
-                </div>
-                <div className={styles.card}>
-                    <Image src={sampleImg}/>
-                    <p className={styles.description}>Student name</p>
-                    <p className={styles.description}>3rd year, ECE</p>
-                    <p className={styles.description}>
-                        <a href="tel:+91 9704909222"><FaPhoneAlt/></a>
-                    </p>
-                </div>
-                <div className={styles.card}>
-                    <Image src={sampleImg}/>
-                    <p className={styles.description}>Student name</p>
-                    <p className={styles.description}>3rd year, ECE</p>
-                    <p className={styles.description}>
-                        <a href="tel:+91 9704909222"><FaPhoneAlt/></a>
-                    </p>
-                </div>
-                <div className={styles.card}>
-                    <Image src={sampleImg}/>
-                    <p className={styles.description}>Student name</p>
-                    <p className={styles.description}>3rd year, ECE</p>
-                    <p className={styles.description}>
-                        <a href="tel:+91 9704909222"><FaPhoneAlt/></a>
-                    </p>
-                </div>
+                {TeamData.map((item,index) => (
+                    <Card team={item} key={'card-${index}'}/>
+                ))}
             </div>
         </main>
         </div>

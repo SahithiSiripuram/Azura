@@ -1,0 +1,26 @@
+[
+    {
+       "name":"XYZ1" ,
+       "department": "CSE",
+       "mobile": "ABC",
+       "imgUrl": "/public/android-chrome-512x512.png"
+    },
+    {
+        "name":"XYZ1" ,
+        "department": "CSE",
+        "mobile": "ABC",
+        "imgUrl": "/public/android-chrome-512x512.png"
+     },
+     {
+        "name":"XYZ1" ,
+        "department": "CSE",
+        "mobile": "ABC",
+        "imgUrl": "/public/android-chrome-512x512.png"
+     },
+     {
+        "name":"XYZ1" ,
+        "department": "CSE",
+        "mobile": "ABC",
+        "imgUrl": "/public/android-chrome-512x512.png"
+     }
+]
