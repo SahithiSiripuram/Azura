@@ -11,7 +11,7 @@ function Countdown() {
     var countDownDate = new Date("Mar 26, 2022 9:00:00").getTime();
     var myfunc = setInterval(function () {
         forceUpdate();
-    }, 60*1000);
+    }, 1000);
     var now = new Date().getTime();
     var timeleft = countDownDate - now;
     var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
