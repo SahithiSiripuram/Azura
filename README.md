@@ -10,11 +10,8 @@ Components
 5. Team
 6. Address
 
-Features
-1. Fully resposive
-
 Todo:
-1. Payment gateways on click register
+1. render qr images from json files
 2. More animation, CSS and effects
 3. Google maps API
-4. Countdown timer
+4. Countdown timer align for mobile devices
