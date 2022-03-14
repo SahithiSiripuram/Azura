@@ -1,0 +1,26 @@
+[
+    {
+       "title":"Some event name 1" ,
+       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+       "organizer": "ABC",
+       "imgUrl": "/qrs/sahithiqr.jpeg"
+    },
+    {
+        "title":"Some event name 2" ,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "organizer": "ABC",
+        "imgUrl": "/qrs/sahithiqr.jpeg"
+     },
+     {
+        "title":"Some event name 3" ,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "organizer": "ABC",
+        "imgUrl": "/qrs/sahithiqr.jpeg"
+     },
+     {
+        "title":"Some event name 4" ,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "organizer": "ABC",
+        "imgUrl": "/qrs/sahithiqr.jpeg"
+     }
+]

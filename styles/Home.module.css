@@ -40,17 +40,24 @@
   font-size: 1.5rem;
 }
 
-.card .heading{
+.heading{
   line-height: 1.5;
   font-size: 1.5rem;
   color: #1A74E2;
+}
+
+.headingTimer{
+  line-height: 1.5;
+  font-size: 3rem;
+  color: #1A74E2;
+  text-align: center;
 }
 
 .grid {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .card {
@@ -62,12 +69,26 @@
   border: 1px solid #1A74E2;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+  width: 30%;
+}
+
+.cardTimer {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 30%;
+  border-color: 1px solid #6BD0FF;
+  box-shadow: 0px 0px 20px 1px;
 }
 
 .card:hover,
 .card:active {
   border-color: #6BD0FF;
+  box-shadow: 0px 0px 20px 1px;
 }
 
 .card h2 {
@@ -94,4 +115,10 @@
   align-items: center;
   flex-grow: 1;
   padding-top: 2%;
+}
+
+.description span{
+  background-color:#1A74E2;
+  color:aliceblue;
+  padding: 0.5rem;
 }
