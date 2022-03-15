@@ -11,7 +11,7 @@ Components
 6. Address
 
 Todo:
-1. render qr images from json files
-2. More animation, CSS and effects
-3. Google maps API
-4. Countdown timer align for mobile devices
+1. payment gateways
+2. fix the space between countdown and heading
+3. More animation, CSS and effects
+4. Google maps API
