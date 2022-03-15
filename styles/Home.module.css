@@ -73,8 +73,6 @@
 }
 
 .cardTimer {
-  margin: 1rem;
-  padding: 1.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
@@ -83,6 +81,9 @@
   width: 30%;
   border-color: 1px solid #6BD0FF;
   box-shadow: 0px 0px 20px 1px;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
 }
 
 .card:hover,
@@ -105,20 +106,36 @@
   text-align: center;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
 .intro{
   width: 100%;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  padding-top: 2%;
 }
 
 .description span{
   background-color:#1A74E2;
   color:aliceblue;
-  padding: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .cardTimer {
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    width: 30%;
+    border-color: 1px solid #6BD0FF;
+    box-shadow: 0px 0px 20px 1px;
+    padding: 8px;
+    margin: 8px;
+    width: 80px;
+  }
+
+  .description {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
 }
