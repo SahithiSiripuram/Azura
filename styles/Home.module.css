@@ -26,6 +26,9 @@
   color: #1A74E2;
   font-size: 2em;
 }
+.cardDiv{
+  margin: 5%;
+}
 .cardDiv h4{
   color: #1A74E2
 }

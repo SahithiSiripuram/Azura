@@ -11,15 +11,12 @@ const Team = () => {
           <Row className={styles.title}>
             <h1><span>Student Coordinators</span> for Azura 2k22</h1>
           </Row>
-          <Row>
+          <Row xs={1} sm={1} md={2}>
           {
             TeamData.map((index) => (
-              <Col  key={index._id}>
+              <Col key={index._id}>
                 <Card className={styles.cardDiv}>
                   <Card.Body>
-                    <Card.Title>
-                      <h4></h4>
-                    </Card.Title>
                     <Card.Text>
                       <p>{index.name}</p>
                     </Card.Text>

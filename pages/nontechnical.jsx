@@ -10,7 +10,7 @@ const Nontechnical = () => {
           <Row className={styles.title}>
             <h1><span>Non Technical events</span> for Azura 2k22</h1>
           </Row>
-          <Row>
+          <Row xs={1} sm={1} md={2}> 
           {
             NonTechnicalEventsData.map((index) => (
               <Col  key={index._id}>
@@ -21,7 +21,7 @@ const Nontechnical = () => {
                     </Card.Title>
                     <Card.Text>
                       <p>{index.description}</p>
-                      <h5>Organised by: {index.organizer}</h5>
+                      <p>Organised by: {index.organizer}</p>
                     </Card.Text>
                     <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                   </Card.Body>
