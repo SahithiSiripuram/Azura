@@ -14,4 +14,4 @@ Todo:
 1. payment gateways
 2. fix the space between countdown and heading
 3. More animation, CSS and effects
-4. Google maps API
+4. Replace css entirely with some framework
