@@ -1,15 +1,17 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Countdown from './countdown'
 import Technical from './technical'
 import Nontechnical from './nontechnical'
 import Stalls from './stalls'
 import Team from './team'
 import Address from './address'
+import {Container,Row} from 'react-bootstrap'
+import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Azura 2k22</title>
         <meta name="description" content="Annual technical symposium of CMRCET" />
@@ -18,40 +20,47 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <link rel="manifest" href="/site.webmanifest"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet" />
       </Head>
-      <div className={styles.intro}>
-          <h1 className={styles.title}>
-              <span style={{fontSize:"9rem"}}>Azura</span> 2k22
+      <div>
+        <Container fluid>
+          <Row>
+            <h1 className={styles.header}>
+              <span>Azura</span>2022
             </h1>
-            <p className={styles.description}>
+          </Row>
+          <Row>
+            <h2>
               Annual technical symposium of CMRCET
-            </p>
-            <p className={styles.description}>
+            </h2>
+          </Row>
+          <Row>
+            <h2>
               26th March 2022
-            </p>
-      </div>
-      <main className={styles.main}>
-        <div className={styles.grid}>
-          <div>
+            </h2>
+          </Row>
+          <Row>
             <Countdown/>
-          </div>
-          <div>
+          </Row>
+          <Row>
             <Technical/>
-          </div>
-          <div>
+          </Row>
+          <Row>
             <Nontechnical/>
-          </div>
-          <div>
+          </Row>
+          <Row>
             <Stalls/>
-          </div>
-          <div>
+          </Row>
+          <Row>
             <Team/>
-          </div>
-          <div>
+          </Row>
+          <Row>
             <Address/>
-          </div>
-        </div>
-      </main>
+          </Row>
+        </Container>
+      </div>
     </div>
   )
 }

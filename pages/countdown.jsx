@@ -1,4 +1,5 @@
 import { useReducer } from 'react';
+import {Container,Row,Col} from 'react-bootstrap'
 import styles from '../styles/Home.module.css'
 
 function Countdown() {
@@ -14,27 +15,21 @@ function Countdown() {
     var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeleft) % (1000 * 60) / (1000));
     return (
-        <div  className={styles.container}>
-            <div className={styles.main}>
-                <div className={styles.grid}>
-                    <div className={styles.cardTimer}>
-                        <p className={styles.headingTimer}>{days}</p>
-                        <p className={styles.description}>days</p>
-                    </div>
-                    <div className={styles.cardTimer}>
-                        <p className={styles.headingTimer}>{hours}</p>
-                        <p className={styles.description}>hours</p>
-                    </div>
-                    <div className={styles.cardTimer}>
-                        <p className={styles.headingTimer}>{minutes}</p>
-                        <p className={styles.description}>minutes</p>
-                    </div>
-                    <div className={styles.cardTimer}>
-                        <p className={styles.headingTimer}>{seconds}</p>
-                        <p className={styles.description}>seconds</p>
-                    </div>
-                </div>
-            </div>
+        <div>
+            <Container fluid>
+                <Row>
+                    <Col className={styles.timerDiv}> {days} </Col>
+                    <Col className={styles.timerDiv}> {hours} </Col>
+                    <Col className={styles.timerDiv}> {minutes}</Col>
+                    <Col className={styles.timerDiv}> {seconds} </Col>
+                </Row>
+                <Row>
+                    <Col> <h3>days</h3> </Col>
+                    <Col> <h3>hours</h3> </Col>
+                    <Col> <h3>minutes</h3> </Col>
+                    <Col> <h3>seconds</h3> </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

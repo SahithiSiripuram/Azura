@@ -1,43 +1,39 @@
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import ReactCardFlip from 'react-card-flip';
 import TeamData from './TeamData.json'
 import React from 'react';
+import {Card, Col, Container,Row} from 'react-bootstrap'
 import {FaPhoneAlt} from "react-icons/fa"
 
-
-const Card = ({ team }) => {
-    return (
-        <div
-          onClick={() => setIsFlipped((prev) => !prev)}
-          className={styles.card}
-        >
-          <div>
-            <p className={styles.heading}>{team.name}</p>
-            <p className={styles.description}>{team.department}</p>
-            <p className={styles.description}>
-                <a href="tel:{team.mobile}">
-                    <FaPhoneAlt/>
-                </a>
-            </p>
-          </div>
-        </div>
-    );
-  };
 const Team = () => {
     return(
-        <div className={styles.container}>
-        <div className={styles.intro}>
-            <h1 className={styles.title}><span>Student coordinators</span> for Azura 2k22</h1>
-        </div>
-        <main className={styles.main}>
-            <div className={styles.grid}>
-                {TeamData.map((item,index) => (
-                    <Card team={item} key={'card-${index}'}/>
-                ))}
-            </div>
-        </main>
-        </div>
+      <div className={styles.container}>
+        <Container>
+          <Row className={styles.title}>
+            <h1><span>Student Coordinators</span> for Azura 2k22</h1>
+          </Row>
+          <Row>
+          {
+            TeamData.map((index) => (
+              <Col  key={index._id}>
+                <Card className={styles.cardDiv}>
+                  <Card.Body>
+                    <Card.Title>
+                      <h4></h4>
+                    </Card.Title>
+                    <Card.Text>
+                      <p>{index.name}</p>
+                    </Card.Text>
+                    <a href="tel:{index.mobile}">
+                        <FaPhoneAlt/>
+                    </a>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))
+          }
+          </Row>
+        </Container>
+      </div>
     )
 }
 export default Team

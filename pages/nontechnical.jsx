@@ -1,60 +1,37 @@
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import ReactCardFlip from 'react-card-flip';
 import NonTechnicalEventsData from './NonTechnicalEventsData.json'
 import React from 'react';
+import {Card, Col, Container,Row} from 'react-bootstrap'
 
-const CardStyle = {
-    border: "1px solid #1A74E2",
-    padding: "20px",
-    margin: "20px",
-    width: "200px",
-  };
-
-const Card = ({ event }) => {
-    const [isFlipped, setIsFlipped] = React.useState(false);
-    return (
-      <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-        <div
-          style={CardStyle}
-          onClick={() => setIsFlipped((prev) => !prev)}
-          className={styles.card}
-        >
-          <div className='CardFront'>
-            <p className={styles.heading}>{event.title}</p>
-            <p className={styles.description}>{event.description}</p>
-            <p className={styles.description}>Organised by: {event.organizer}</p>
-            <p className={styles.description}><span>Register</span></p>
-          </div>
-        </div>
-        <div
-          style={CardStyle}
-          onClick={() => setIsFlipped((prev) => !prev)}
-          className={styles.card}
-        >
-            <div className="CardBack">
-            <p className={styles.heading}>{event.title}</p>
-            <Image src={event.imgUrl} width="20%" height="20%"/>
-            <p className={styles.description}>Scan to pay</p>
-          </div>
-        </div>
-      </ReactCardFlip>
-    );
-  };
-const NonTechnical = () => {
+const Nontechnical = () => {
     return(
-        <div className={styles.container}>
-        <div className={styles.intro}>
-            <h1 className={styles.title}><span>Non Technical events</span> for Azura 2k22</h1>
-        </div>
-        <main className={styles.main}>
-            <div className={styles.grid}>
-                {NonTechnicalEventsData.map((item,index) => (
-                    <Card event={item} key={'card-${index}'}/>
-                ))}
-            </div>
-        </main>
-        </div>
+      <div className={styles.container}>
+        <Container>
+          <Row className={styles.title}>
+            <h1><span>Non Technical events</span> for Azura 2k22</h1>
+          </Row>
+          <Row>
+          {
+            NonTechnicalEventsData.map((index) => (
+              <Col  key={index._id}>
+                <Card className={styles.cardDiv}>
+                  <Card.Body>
+                    <Card.Title>
+                      <h4>{index.title}</h4>
+                    </Card.Title>
+                    <Card.Text>
+                      <p>{index.description}</p>
+                      <h5>Organised by: {index.organizer}</h5>
+                    </Card.Text>
+                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))
+          }
+          </Row>
+        </Container>
+      </div>
     )
 }
-export default NonTechnical
+export default Nontechnical

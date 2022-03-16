@@ -1,141 +1,43 @@
-.container {
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.container{
+  margin:3% 0%;
 }
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.header{
+  color: aliceblue;
+  font-family: 'Caveat', cursive;
+  font-size: 3em;
 }
-
+.header span{
+  font-size: 2em;
+  color: #1A74E2;
+}
+.title{
+  color: aliceblue;
+  margin-bottom: 2%;
+}
 .title span{
   color: #1A74E2;
-  text-decoration: none;
 }
-
-.title {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  font-size: 40px;
+.timerDiv{
+  border-radius: 10px;
+  border-color: 1px solid #1A74E2;
+  box-shadow: 2px 2px 20px 2px;
+  padding: 3%;
+  margin: 3% 3% 1% 3%;
+  color: #1A74E2;
+  font-size: 2em;
+}
+.cardDiv h4{
+  color: #1A74E2
+}
+.cardAnchor{
+  text-decoration: none;
+  padding: 2%;
+  margin: 2%;
+  background-color: #1A74E2;
   color: aliceblue;
+  border-radius: 7%;
 }
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.heading{
-  line-height: 1.5;
-  font-size: 1.5rem;
+.cardDiv:hover{
+  box-shadow: 2px 2px 20px 2px;
   color: #1A74E2;
-}
-
-.headingTimer{
-  line-height: 1.5;
-  font-size: 3rem;
-  color: #1A74E2;
-  text-align: center;
-}
-
-.grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 1000px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #1A74E2;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 30%;
-}
-
-.cardTimer {
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 30%;
-  border-color: 1px solid #6BD0FF;
-  box-shadow: 0px 0px 20px 1px;
-  padding: 20px;
-  margin: 20px;
-  width: 200px;
-}
-
-.card:hover,
-.card:active {
-  border-color: #6BD0FF;
-  box-shadow: 0px 0px 20px 1px;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.card p {
-  margin: 0;
-  padding: 0.25rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.intro{
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.description span{
-  background-color:#1A74E2;
-  color:aliceblue;
-}
-
-@media (max-width: 600px) {
-  .cardTimer {
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
-    width: 30%;
-    border-color: 1px solid #6BD0FF;
-    box-shadow: 0px 0px 20px 1px;
-    padding: 8px;
-    margin: 8px;
-    width: 80px;
-  }
-
-  .description {
-    line-height: 1.5;
-    font-size: 1rem;
-  }
-  
 }
