@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 function Address() {
   return (
     <div>
-      <Container>
+      <Container className={styles.marginBottom}>
           <Row className={styles.title}>
             <h1><span>Address</span></h1>
           </Row>
