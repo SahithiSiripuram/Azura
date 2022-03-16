@@ -17,6 +17,9 @@
 .title span{
   color: #1A74E2;
 }
+.timerText{
+  font-size: 1.5em;
+}
 .timerDiv{
   border-radius: 10px;
   border-color: 1px solid #1A74E2;
@@ -46,4 +49,10 @@
 }
 .marginBottom{
   margin-bottom: 5%;
+}
+
+@media (max-width:600px){
+  .timerText{
+    font-size: 1em;
+  }
 }

@@ -24,10 +24,10 @@ function Countdown() {
                     <Col className={styles.timerDiv}> {seconds} </Col>
                 </Row>
                 <Row>
-                    <Col> <h3>days</h3> </Col>
-                    <Col> <h3>hours</h3> </Col>
-                    <Col> <h3>minutes</h3> </Col>
-                    <Col> <h3>seconds</h3> </Col>
+                    <Col> <p className={styles.timerText}>days</p> </Col>
+                    <Col> <p className={styles.timerText}>hours</p> </Col>
+                    <Col> <p className={styles.timerText}>minutes</p> </Col>
+                    <Col> <p className={styles.timerText}>seconds</p> </Col>
                 </Row>
             </Container>
         </div>
