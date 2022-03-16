@@ -11,7 +11,5 @@ Components
 6. Address
 
 Todo:
-1. payment gateways
-2. fix the space between countdown and heading
-3. More animation, CSS and effects
-4. Replace css entirely with some framework
+1. limit grid size 1 col for medium and small devices ad grid size to 4 for large devices
+2. Experiment with css and animations
