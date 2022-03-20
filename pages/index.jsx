@@ -1,11 +1,9 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Countdown from './countdown'
-import Technical from './technical'
-import Nontechnical from './nontechnical'
-import Stalls from './stalls'
 import Team from './team'
 import Address from './address'
-import {Container,Row} from 'react-bootstrap'
+import {Card, Col, Container,Row} from 'react-bootstrap'
 import styles from '../styles/Home.module.css'
 
 
@@ -26,17 +24,20 @@ export default function Home() {
       </Head>
       <div>
         <Container fluid>
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
           <Row>
             <h1 className={styles.header}>
-              <span>Azura</span>2022
+              <span>Azura</span>2k22
             </h1>
           </Row>
-          <Row>
+          <Row className={styles.description}>
             <h2>
               Annual technical symposium of CMRCET
             </h2>
           </Row>
-          <Row>
+          <Row className={styles.description}>
             <h2>
               26th March 2022
             </h2>
@@ -44,14 +45,50 @@ export default function Home() {
           <Row>
             <Countdown/>
           </Row>
-          <Row>
-            <Technical/>
+          <Row className={styles.title}>
+            <h1><span>Events </span>in Azura 2k22</h1>
           </Row>
           <Row>
-            <Nontechnical/>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technical">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events &rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
           </Row>
-          <Row>
-            <Stalls/>
+            <Row>
+              <Col>
+                <Card className={styles.cardSpread}>
+                  <Link href="./nontechnical">
+                    <Card.Body>
+                      <Card.Title>
+                        <h4>Non Technical Events &rarr;</h4>
+                      </Card.Title>
+                      <Card.Text>Click here to view all non technical events</Card.Text>
+                    </Card.Body>
+                  </Link>
+                </Card>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <Card className={styles.cardSpread}>
+                  <Link href="./stalls">
+                    <Card.Body>
+                      <Card.Title>
+                        <h4>Stalls &rarr;</h4>
+                      </Card.Title>
+                      <Card.Text>Click here to view all Stalls</Card.Text>
+                    </Card.Body>
+                  </Link>
+                </Card>
+              </Col>
           </Row>
           <Row>
             <Team/>

@@ -18,9 +18,10 @@ const Team = () => {
                 <Card className={styles.cardDiv}>
                   <Card.Body>
                     <Card.Text>
-                      <p>{index.name}</p>
+                      <h4>{index.name}</h4>
+                      <p>Department of {index.department}</p>
                     </Card.Text>
-                    <a href="tel:{index.mobile}">
+                    <a className={styles.icon} href="tel:{index.mobile}">
                         <FaPhoneAlt/>
                     </a>
                   </Card.Body>

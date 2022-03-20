@@ -7,6 +7,9 @@ const Stalls = () => {
     return(
       <div className={styles.container}>
         <Container>
+          <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
           <Row className={styles.title}>
             <h1><span>Stalls</span> for Azura 2k22</h1>
           </Row>
