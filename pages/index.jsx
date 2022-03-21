@@ -91,6 +91,20 @@ export default function Home() {
               </Col>
           </Row>
           <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./rules">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Rules &amp; Regulations &rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all rules &amp; regulations</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+          </Row>
+          <Row>
             <Team/>
           </Row>
           <Row>

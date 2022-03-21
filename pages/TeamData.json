@@ -1,27 +1,62 @@
 [
-    {
-       "_id": "1",
-       "name":"XYZ1" ,
-       "department": "CSE",
-       "mobile": "+919704909222",
-       "image": "/public/android-chrome-192x192.png"
+   {
+      "_id": "1",
+      "name":"Nikith Sai" ,
+      "department": "MECH",
+      "mobile": "8328216791"
+   },
+   {
+     "_id": "2",
+       "name":"Surya" ,
+       "department": "CIVIL",
+       "mobile": "7386206235"
     },
     {
-      "_id": "2",
-        "name":"XYZ1" ,
-        "department": "CSE",
-        "mobile": "ABC"
-     },
-     {
-         "_id": "3",
-        "name":"XYZ1" ,
-        "department": "CSE",
-        "mobile": "ABC"
-     },
-     {
-       "_id": "4",
-        "name":"XYZ1" ,
-        "department": "CSE",
-        "mobile": "ABC"
-     }
+        "_id": "3",
+       "name":"Chandra Pavan" ,
+       "department": "EEE",
+       "mobile": "7893128515"
+    },
+    {
+      "_id": "4",
+       "name":"Venkat Vinay" ,
+       "department": "MECH",
+       "mobile": "7396978839"
+    },
+    {
+     "_id": "5",
+      "name":"Maruthi Ganesh" ,
+      "department": "ECE",
+      "mobile": "9885287550"
+   },
+   {
+     "_id": "6",
+      "name":"Abhiram" ,
+      "department": "CSE",
+      "mobile": "9059350077"
+   },
+   {
+     "_id": "7",
+      "name":"Sai Charan" ,
+      "department": "CSM",
+      "mobile": "8688149845"
+   },
+   {
+     "_id": "8",
+      "name":"Sai Kiran" ,
+      "department": "CSC",
+      "mobile": "8019111644"
+   },
+   {
+     "_id": "9",
+      "name":"Balaji" ,
+      "department": "IT",
+      "mobile": "6303758151"
+   },
+   {
+     "_id": "10",
+      "name":"Jairaghav" ,
+      "department": "MBA",
+      "mobile": "9398660581"
+   }
 ]

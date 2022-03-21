@@ -26,7 +26,6 @@ const Stalls = () => {
                       <p>{index.description}</p>
                       <p>Organised by: {index.organizer}</p>
                     </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer"  className={styles.cardAnchor}>Pay Now</a>
                   </Card.Body>
                 </Card>
               </Col>

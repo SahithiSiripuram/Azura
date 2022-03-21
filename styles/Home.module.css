@@ -71,6 +71,10 @@
   box-shadow: 2px 2px 20px 2px;
   color: #92c741;
 }
+.list{
+  text-align: left;
+  color: whitesmoke;
+}
 
 @media (max-width:600px){
   .timerText{
