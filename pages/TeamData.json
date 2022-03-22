@@ -8,55 +8,55 @@
    {
      "_id": "2",
        "name":"Surya" ,
-       "department": "CIVIL",
+       "department": "Department of Civil",
        "mobile": "7386206235"
     },
     {
         "_id": "3",
        "name":"Chandra Pavan" ,
-       "department": "EEE",
+       "department": "Department of EEE",
        "mobile": "7893128515"
     },
     {
       "_id": "4",
        "name":"Venkat Vinay" ,
-       "department": "MECH",
+       "department": "Department of Mechanical",
        "mobile": "7396978839"
     },
     {
      "_id": "5",
       "name":"Maruthi Ganesh" ,
-      "department": "ECE",
+      "department": "Department of ECE",
       "mobile": "9885287550"
    },
    {
      "_id": "6",
       "name":"Abhiram" ,
-      "department": "CSE",
+      "department": "Department of CSE",
       "mobile": "9059350077"
    },
    {
      "_id": "7",
       "name":"Sai Charan" ,
-      "department": "CSM",
+      "department": "Department of CSM",
       "mobile": "8688149845"
    },
    {
      "_id": "8",
       "name":"Sai Kiran" ,
-      "department": "CSC",
+      "department": "Department of CSC",
       "mobile": "8019111644"
    },
    {
      "_id": "9",
       "name":"Balaji" ,
-      "department": "IT",
+      "department": "Department of IT",
       "mobile": "6303758151"
    },
    {
      "_id": "10",
       "name":"Jairaghav" ,
-      "department": "MBA",
+      "department": "Department of MBA",
       "mobile": "9398660581"
    }
 ]
