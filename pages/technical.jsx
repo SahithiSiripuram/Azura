@@ -27,7 +27,7 @@ const Technical = () => {
           {
             TechnicalEventsHnSData.map((index) => (
               <Col  key={index._id}>
-              <Card className={styles.cardSpread}>
+              <Card className={styles.cardDiv}>
                 <Card.Body>
                   <Card.Title>
                     <h4>{index.title}</h4>
