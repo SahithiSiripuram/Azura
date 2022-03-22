@@ -92,9 +92,10 @@ export default function Home() {
           </Row>
           <Row>
             <Col>
-            <a className={styles.cardSpread} href='public\rules.pdf' target='_blank' rel='noopener noreferrer'>
+            <a className={styles.cardSpread} href='public\rules.pdf' download="rules">
               <h4>Rules &amp; Regulations &rarr;</h4>
             </a>
+
             </Col>
           </Row>
           <Row>
