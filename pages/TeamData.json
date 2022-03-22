@@ -3,19 +3,19 @@
       "_id": "1",
       "name":"Nikith Sai" ,
       "department": "Head of Arts & culture board",
-      "mobile": 8328216791
+      "mobile": "tel:8328216791"
    },
    {
      "_id": "2",
        "name":"Surya" ,
        "department": "Department of Civil",
-       "mobile": 7386206235
+       "mobile": "7386206235"
     },
     {
         "_id": "3",
        "name":"Chandra Pavan" ,
        "department": "Department of EEE",
-       "mobile": 7893128515
+       "mobile": "7893128515"
     },
     {
       "_id": "4",

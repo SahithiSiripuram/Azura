@@ -60,128 +60,135 @@
         "organizer": "D Rishabh, Y Lokesh"
      },
     {
-       "_id":"1",
+       "_id":"13",
        "title":"Mobile Photo graphy",
        "organizer": "Bharath Chandra"
     },
     {
-        "_id":"2",
+        "_id":"14",
         "title":"Picking colour balls",
         "organizer": "Akshay"
      },
      {
-        "_id":"3",
+        "_id":"15",
         "title":"Go with the flow",
         "organizer": "Nandini"
      },
      {
-        "_id":"4",
+        "_id":"16",
         "title":"Dart Game",
         "organizer": "Minarva"
      },
      {
-        "_id":"5",
+        "_id":"17",
         "title":"Choclate founatian",
         "organizer": "Rahul teja"
      },
      {
-         "_id":"6",
+         "_id":"18",
          "title":"Hit the glass",
          "organizer": "Rohith"
       },
       {
-         "_id":"7",
+         "_id":"19",
          "title":"The leamon war",
          "organizer": "Sravan"
       },
     {
-       "_id":"1",
+       "_id":"20",
        "title":"Matching Game",
        "organizer": "M.Abhishek"
     },
     {
-       "_id":"1",
+       "_id":"21",
        "title":"Pani puri Competition",
        "organizer": "Harsha"
     },
     {
-        "_id":"2",
+        "_id":"22",
         "title":"Donuts",
         "organizer": "Anshu, Vaishali, Harsha, Pranitha, Tejaswi, Jayanti"
      },
     {
-       "_id":"1",
+       "_id":"23",
        "title":"YumTum",
        "organizer": "Sahithi Siripuram"
     },
     {
-        "_id":"2",
+        "_id":"24",
         "title":"Biryani",
         "organizer": "Praneeth, Devavrath"
      },
      {
-        "_id":"3",
+        "_id":"25",
         "title":"Happy Sips",
         "organizer": "Siddharth, Roopak Reddy"
      },
      {
-        "_id":"4",
+        "_id":"26",
         "title":"Hand print, brick challenge",
         "organizer": "Abhiram"
      },
      {
-        "_id":"5",
+        "_id":"27",
         "title":"Helium Balloon, jolochip",
         "organizer": "Sumanth, Varshitha"
      },
      {
-         "_id":"6",
+         "_id":"28",
          "title":"Magic show",
          "organizer": "N.siddhartha, Y. Arun"
       },
       {
-         "_id":"7",
+         "_id":"29",
          "title":"Hawkeye",
          "organizer": "Balla Ganesh, Sai Prashanth"
       },
       {
-         "_id":"8",
+         "_id":"30",
          "title":"INKredible tattoos",
          "organizer": "pooja, Nikhil"
       },
       {
-        "_id":"9",
+        "_id":"31",
         "title":"card towers, food plating",
         "organizer": "ayaz, rishab"
      },
      {
-         "_id":"10",
+         "_id":"32",
          "title":"Box Cricket",
          "organizer": "Abhiram"
       },
       {
-         "_id":"11",
+         "_id":"33",
          "title":"Goal Kicks",
          "organizer": "Harsha Vardhan"
       },
     {
-       "_id":"1",
+       "_id":"34",
        "title":"Milkshakes,  Mocktails, Lassi's, Kulfi",
        "organizer": "Narsing, Tanuj"
     },
     {
-        "_id":"2",
+        "_id":"35",
         "title":"Chat Bandi",
         "organizer": "Gopi, Venkat "
      },
      {
-        "_id":"3",
+        "_id":"36",
         "title":"Spin the Wheel, InstaPix",
         "organizer": "Varun, Vamsi"
      },
      {
-        "_id":"4",
+        "_id":"37",
         "title":"Crispy Chicken, Ice Gola",
         "organizer": "Pranay, Srikar"
-     }
+     },
+     {
+      "_id": "38",
+      "title": "Singing Competition(Music Club)",
+      "organizer1": "MahaLakshmi",
+      "organizer2": "Varun Sandesh",
+      "organizer3" :"Umesh"
+      }
  ]

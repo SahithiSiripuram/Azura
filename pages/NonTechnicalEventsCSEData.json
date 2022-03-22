@@ -1,38 +1,11 @@
 [
    {
-      "_id":"1",
-      "title":"Technical Quiz",
-      "organizer1": "Rishitha",
-      "organizer2": "Harshitha",
-      "mobile1": "8919152074",
-      "mobile2": "8186012274",
-      "razorpayLink": "https://rzp.io/l/OxiWhbBig"
-   },
-   {
-       "_id":"2",
+       "_id":"1",
        "title":"Art Compitition",
        "organizer1": "Harshitha",
        "organizer2": "Bhanu Hemanth",
        "mobile1": "9059519332",
        "mobile2": "9963237578",
-       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
-    },
-    {
-       "_id":"3",
-       "title":"mock cid",
-       "organizer1": "Praveen",
-       "organizer2": "Ayaz",
-       "mobile1": "9515368147",
-       "mobile2": "8297242245",
-       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
-    },
-    {
-       "_id":"4",
-       "title":"Tech Conference",
-       "organizer1": "J.Harshini Naik",
-       "organizer2": "Dhatri",
-       "mobile1": "7794951810",
-       "mobile2": "9948536079",
        "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     }
 ]

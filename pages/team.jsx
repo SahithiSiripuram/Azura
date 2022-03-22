@@ -21,7 +21,7 @@ const Team = () => {
                       <h4>{index.name}</h4>
                       <p>{index.department}</p>
                     </Card.Text>
-                    <a className={styles.icon} href="tel:{index.mobile}">
+                    <a className={styles.icon} href={index.mobile}>
                         <FaPhoneAlt/>
                     </a>
                   </Card.Body>
