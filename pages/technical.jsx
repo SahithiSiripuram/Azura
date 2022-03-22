@@ -8,6 +8,7 @@ import TechnicalEventsEEEData from './TechnicalEventsEEEData.json'
 import TechnicalEventsMechData from './TechnicalEventsMechData.json'
 import TechnicalEventsCivilData from './TechnicalEventsCivilData.json'
 import TechnicalEventsMBAData from './TechnicalEventsMBAData.json'
+import TechnicalEventsHnSData from './TechnicalEventsHnSData'
 import React from 'react';
 import {Card, Col, Container,Row} from 'react-bootstrap'
 import {FaPhoneAlt} from "react-icons/fa"
@@ -22,26 +23,32 @@ const Technical = () => {
         <Row className={styles.title}>
             <h1>Technical events by the<span> Department of H&amp;S</span></h1>
           </Row>
-          <Row>
-              <Col>
-              <Card className={styles.cardDiv}>
+          <Row xs={1} sm={1} md={2}> 
+          {
+            TechnicalEventsHnSData.map((index) => (
+              <Col  key={index._id}>
+              <Card className={styles.cardSpread}>
                 <Card.Body>
                   <Card.Title>
-                    <h4>Paper Presentation for first years</h4>
+                    <h4>{index.title}</h4>
                   </Card.Title>
                   <Card.Text>
+                    <p>{index.description}</p>
                     <p>Organized by:</p>
-                    <a className={styles.icon} href="tel:+917731908405">
+                    {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                       <FaPhoneAlt/>
-                      <p>Eeshani</p>
-                    </a>
-                    <a className={styles.icon} href="tel:+919550453527">
+                      <p>{index.organizer1}</p>
+                    </a>)}
+                    {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
                       <FaPhoneAlt/>
-                      <p>Pranay</p>
-                    </a>
-                    <p>This event is open to all first year students(only) across all colleges</p>
+                      <p>{index.organizer2}</p>
+                    </a>)}
+                    {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
+                      <FaPhoneAlt/>
+                      <p>{index.organizer3}</p>
+                    </a>)}
                   </Card.Text>
-                  <a href='https://rzp.io/l/Eb5oOxwFdI' target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
+                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                 </Card.Body>
               </Card>
             </Col>
@@ -61,7 +68,7 @@ const Technical = () => {
                     <h4>{index.title}</h4>
                   </Card.Title>
                   <Card.Text>
-                  <>
+                  
                       <p>Organized by:</p>
                     {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                       <FaPhoneAlt/>
@@ -75,7 +82,7 @@ const Technical = () => {
                       <FaPhoneAlt/>
                       <p>{index.organizer3}</p>
                     </a>)}
-                    </>
+                    
                   </Card.Text>
                   <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                 </Card.Body>
@@ -97,7 +104,7 @@ const Technical = () => {
                       <h4>{index.title}</h4>
                     </Card.Title>
                     <Card.Text>
-                    <>
+                    
                         <p>Organized by:</p>
                       {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                         <FaPhoneAlt/>
@@ -111,7 +118,7 @@ const Technical = () => {
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
-                      </>
+                      
                     </Card.Text>
                     <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                   </Card.Body>
@@ -133,7 +140,7 @@ const Technical = () => {
                       <h4>{index.title}</h4>
                     </Card.Title>
                     <Card.Text>
-                    <>
+                    
                         <p>Organized by:</p>
                       {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                         <FaPhoneAlt/>
@@ -147,7 +154,7 @@ const Technical = () => {
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
-                      </>
+                      
                     </Card.Text>
                     <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                   </Card.Body>
@@ -169,7 +176,7 @@ const Technical = () => {
                       <h4>{index.title}</h4>
                     </Card.Title>
                     <Card.Text>
-                    <>
+                    
                         <p>Organized by:</p>
                       {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                         <FaPhoneAlt/>
@@ -183,7 +190,7 @@ const Technical = () => {
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
-                      </>
+                      
                     </Card.Text>
                     <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                   </Card.Body>
@@ -205,7 +212,7 @@ const Technical = () => {
                       <h4>{index.title}</h4>
                     </Card.Title>
                     <Card.Text>
-                    <>
+                    
                         <p>Organized by:</p>
                       {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                         <FaPhoneAlt/>
@@ -219,7 +226,7 @@ const Technical = () => {
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
-                      </>
+                      
                     </Card.Text>
                     <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                   </Card.Body>
@@ -241,7 +248,7 @@ const Technical = () => {
                       <h4>{index.title}</h4>
                     </Card.Title>
                     <Card.Text>
-                    <>
+                    
                         <p>Organized by:</p>
                       {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                         <FaPhoneAlt/>
@@ -255,7 +262,7 @@ const Technical = () => {
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
-                      </>
+                      
                     </Card.Text>
                     <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                   </Card.Body>
@@ -277,7 +284,7 @@ const Technical = () => {
                       <h4>{index.title}</h4>
                     </Card.Title>
                     <Card.Text>
-                    <>
+                    
                         <p>Organized by:</p>
                       {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                         <FaPhoneAlt/>
@@ -291,7 +298,7 @@ const Technical = () => {
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
-                      </>
+                      
                     </Card.Text>
                     <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                   </Card.Body>
@@ -313,7 +320,7 @@ const Technical = () => {
                       <h4>{index.title}</h4>
                     </Card.Title>
                     <Card.Text>
-                    <>
+                    
                         <p>Organized by:</p>
                       {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                         <FaPhoneAlt/>
@@ -327,7 +334,7 @@ const Technical = () => {
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
-                      </>
+                      
                     </Card.Text>
                     <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                   </Card.Body>
@@ -349,7 +356,7 @@ const Technical = () => {
                       <h4>{index.title}</h4>
                     </Card.Title>
                     <Card.Text>
-                    <>
+                    
                         <p>Organized by:</p>
                       {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                         <FaPhoneAlt/>
@@ -363,7 +370,7 @@ const Technical = () => {
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
-                      </>
+                      
                     </Card.Text>
                     <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                   </Card.Body>

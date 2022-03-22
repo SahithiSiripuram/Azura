@@ -1,0 +1,12 @@
+[
+    {
+       "_id":"1",
+       "title":"Paper presentation" ,
+       "description": "This event is for first year students(only) across all campuses",
+       "organizer1": "Eeshani",
+       "organizer2": "Pranay",
+       "mobile1": "+917731908405",
+       "mobile2":"+919550453527",
+       "razorpayLink": "https://rzp.io/l/eeYpqvw5"
+    }
+]
