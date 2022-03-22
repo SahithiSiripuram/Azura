@@ -38,5 +38,14 @@
        "organizer2": "G.Rahul",
        "mobile1" :   "tel:+918074339045",
        "razorpayLink": "  https://rzp.io/l/OxiWhbBig"
-   }
+   },
+   {
+    "_id":"6",
+    "title":"Technical quiz",
+    "organizer1": "G.surya",
+    "organizer2": "I.Bhanu netha",
+    "mobile1 ": "tel:8555072352",
+    "mobile2" :"tel:8074055060",
+   "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+ }
 ]

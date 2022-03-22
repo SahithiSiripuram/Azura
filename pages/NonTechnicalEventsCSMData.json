@@ -1,15 +1,6 @@
 [
-   {
-      "_id":"1",
-      "title":"Technical quiz",
-      "organizer1": "G.surya",
-      "organizer2": "I.Bhanu netha",
-      "mobile1 ": "tel:8555072352",
-      "mobile2" :"tel:8074055060",
-     "razorpayLink": "https://rzp.io/l/OxiWhbBig"
-   },
-   {
-       "_id":"2",
+    {
+       "_id":"1",
        "title":"PPT Presentation",
        "organizer1": "P.Naveen", 
        "organizer2": "harsh amilpur",
@@ -18,7 +9,7 @@
        "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     },
    {
-       "_id":"3",
+       "_id":"2",
        "title":"Series quiz",
        "organizer1": "D.Sathvika", 
        "organizer2": "E.Mayukha",
@@ -27,7 +18,7 @@
        "razorpayLink": "https://rzp.io/l/ZzL40nGy"
    },
    {
-       "_id":"4",
+       "_id":"3",
        "title":"Jam",
        "organizer1": "AYESHA", 
        "organizer2": "sanjana",
@@ -36,7 +27,7 @@
        "razorpayLink": "https://rzp.io/l/ZzL40nGy"
    },
    {
-       "_id":"5",
+       "_id":"4",
        "title":"quiling",
        "organizer1": "B.Srilaya", 
        "organizer2": "M.charitha",
@@ -45,7 +36,7 @@
        "razorpayLink": "https://rzp.io/l/ZzL40nGy"
    },
    {
-       "_id":"6",
+       "_id":"5",
        "title":"Best of waste",
        "organizer1": "N.Thanishka", 
        "organizer2": "R.sai charan",
