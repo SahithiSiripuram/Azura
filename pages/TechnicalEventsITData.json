@@ -5,8 +5,8 @@
        "title":"Tech Quiz",
        "organizer1": "Sk.Shoaib Ahmed",
     "organizer2": "J.Vaagdevi Varma",
-    "mobile1": "9705123932",
-    "mobile2": "8074318681",
+    "mobile1": "tel:9705123932",
+    "mobile2": "tel:8074318681",
        "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     },
   {
@@ -14,8 +14,8 @@
        "title":"Paper Presentation",
        "organizer1": "P.Venkatesh",
     "organizer2": "B.Vyshnavi",
-    "mobile1": "9848995265",
-    "mobile2": "9182105561",
+    "mobile1": "tel:9848995265",
+    "mobile2": "tel:9182105561",
        "razorpayLink": "https://rzp.io/l/z7q95RZ"
     }
 

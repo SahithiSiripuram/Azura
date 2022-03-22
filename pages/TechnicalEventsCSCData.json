@@ -4,8 +4,8 @@
         "title":"Tech Quiz",
         "organizer1": "B.deepak",
 		"organizer2": "Thrisha",
-		"mobile1":"8919012886",
-		"mobile2":"9704754658",
+		"mobile1":"tel:8919012886",
+		"mobile2":"tel:9704754658",
         "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     },
     {
@@ -14,8 +14,8 @@
         "organizer1": "Shruthi jha ",
 		"organizer2": "Gayathri",
 		"organizer3": "Sandeep Manikanta",
-		"mobile1":"9963691677",
-		"mobile2":"8142674145",
+		"mobile1":"tel:9963691677",
+		"mobile2":"tel:8142674145",
         "razorpayLink": "https://rzp.io/l/OxiWhbBig "
     },    
     {
@@ -23,8 +23,8 @@
         "title":"Paper presentation",
         "organizer1": "navya",
 		"organizer2":"mounika",
-		"mobile1":"7396339741",
-		"mobile2":"7893316156",
+		"mobile1":"tel:7396339741",
+		"mobile2":"tel:7893316156",
         "razorpayLink": "https://rzp.io/l/z7q95RZ"
     },
     {
@@ -32,8 +32,8 @@
         "title":"Poster presentation",
         "organizer1": ": M.Tejashwini",
 		"organizer2": "K.Ashritha ",
-		"mobile1":"6302570534",
-		"mobile2":"8008216492",
+		"mobile1":"tel:6302570534",
+		"mobile2":"tel:8008216492",
         "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     }
 ]

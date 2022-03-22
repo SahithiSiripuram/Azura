@@ -4,8 +4,8 @@
       "title":"Poetry Competetion",
       "organizer1": "Raahil",
       "organizer2": " Naga Sai",
-      "mobile1":"9149410633",
-      "mobile2":"8639400929",
+      "mobile1":"tel:9149410633",
+      "mobile2":"tel:8639400929",
       "razorpayLink": "https://rzp.io/l/ZzL40nGy"
    },
    {
@@ -14,8 +14,8 @@
        "organizer1": "SriSai",
        "organizer2": "Eshwar",
        "organizer3": "Uday",
-       "mobile1":"8464916478",
-       "mobile2":"9390487320",
+       "mobile1":"tel:8464916478",
+       "mobile2":"tel:9390487320",
        "razorpayLink": "https://rzp.io/l/ZzL40nGy"
    },
    {
@@ -23,8 +23,8 @@
        "title":"Debate",
        "organizer1": "Revanth",
        "organizer2": "Sruthi",
-       "mobile1":"9182658140",
-       "mobile2":"9390089320",
+       "mobile1":"tel:9182658140",
+       "mobile2":"tel:9390089320",
        "razorpayLink": "https://rzp.io/l/z7q95RZ"
    }
 ]

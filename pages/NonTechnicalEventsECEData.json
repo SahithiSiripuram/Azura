@@ -4,8 +4,8 @@
       "title":"Capture : The Earth",
       "organizer1": "V Aravind",
       "organizer2": "D Anirudh",
-      "mobile1": "8142008668",
-      "mobile2": "6281314012",
+      "mobile1": "tel:8142008668",
+      "mobile2": "tel:6281314012",
       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
    },
    {
@@ -14,9 +14,9 @@
        "organizer1": "Bhargav Simha",
        "organizer2": "Sai Kumar",
        "organizer3": "Shiva",
-       "mobile1": "9949240848",
-       "mobile2": "8187833636",
-       "mobile3": "9381004105",
+       "mobile1": "tel:9949240848",
+       "mobile2": "tel:8187833636",
+       "mobile3": "tel:9381004105",
        "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     },
     {
@@ -24,8 +24,8 @@
        "title":"Logical thinking",
        "organizer1": "S Jaya Prakash",
        "organizer2": "V.Tarun",
-       "mobile1": "8297733290",
-       "mobile2": "8367417533",
+       "mobile1": "tel:8297733290",
+       "mobile2": "tel:8367417533",
        "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     },
     {
@@ -33,8 +33,8 @@
        "title":"Debate",
        "organizer1": "SK Sahil",
        "organizer2": "N Rishikesh",
-       "mobile1": "9515762697",
-       "mobile2": "9014722717",
+       "mobile1": "tel:9515762697",
+       "mobile2": "tel:9014722717",
        "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     }
 ]

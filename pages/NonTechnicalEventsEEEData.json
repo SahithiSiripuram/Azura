@@ -1,10 +1,10 @@
 [
    {
        "_id":"1",
-       "title":"Who am i",
+       "title":"Who am I?",
        "organizer1": "Mrudula",
        "organizer2": "Rakshitha",
-       "mobile1": "9346914390",
+       "mobile1": "tel:9346914390",
        "razorpayLink": "https://rzp.io/l/ZzL40nGy"
    }
 ]

@@ -4,7 +4,7 @@
        "title":"Bug Smash",
        "organizer1": "P.Sai Teja" ,
        "organizer2": "S.Ganesh",
-       "mobile1":  "+918978442360",
+       "mobile1":  "tel:+918978442360",
        "razorpayLink": "https://rzp.io/l/OxiWhbBig "
    },
    {
@@ -12,7 +12,7 @@
        "title":"Poster Presentation",
        "organizer1": "D.sumanth", 
        "organizer2": "K.sneha",
-       "mobile1" : "+919963259373",
+       "mobile1" : "tel:+919963259373",
        "razorpayLink": "https://rzp.io/l/OxiWhbBig "
    },
    {
@@ -20,7 +20,7 @@
        "title":"Paper Presentation",
        "organizer1": "G.Sahithi",
        "organizer2": "G.sai chandar",
-       "mobile1": "+919346738840",
+       "mobile1": "tel:+919346738840",
        "razorpayLink": "https://rzp.io/l/z7q95RZ"
    },    
    {
@@ -28,7 +28,7 @@
        "title":"Guess the output",
        "organizer1": "B.Harsha vardhan", 
        "organizer2": "P.Venkat",
-       "mobile1" : "+918328217494",
+       "mobile1" : "tel:+918328217494",
        "razorpayLink": " https://rzp.io/l/OxiWhbBig"
    },
    {
@@ -36,7 +36,7 @@
        "title":"Web Designing",
        "organizer1": "P.Karthik reddy",
        "organizer2": "G.Rahul",
-       "mobile1" :   "+918074339045",
+       "mobile1" :   "tel:+918074339045",
        "razorpayLink": "  https://rzp.io/l/OxiWhbBig"
    }
 ]

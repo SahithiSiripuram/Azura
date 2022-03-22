@@ -3,14 +3,14 @@
       "_id":"1",
       "title":"JAM",
       "organizer1": "Soujanya Yelmule",
-      "mobile1": "7741877435",
+      "mobile1": "tel:7741877435",
       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
    },
    {
        "_id":"2",
        "title":"Logo Designing(Drawing)",
        "organizer1": "Deeti Akhila",
-       "mobile1": "8688537374",
+       "mobile1": "tel:8688537374",
        "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     }
 ]

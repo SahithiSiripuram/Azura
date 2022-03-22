@@ -3,60 +3,60 @@
       "_id": "1",
       "name":"Nikith Sai" ,
       "department": "Head of Arts & culture board",
-      "mobile": "tel:8328216791"
+      "mobile": "tel:+918328216791"
    },
    {
      "_id": "2",
        "name":"Surya" ,
        "department": "Department of Civil",
-       "mobile": "7386206235"
+       "mobile": "tel:7386206235"
     },
     {
         "_id": "3",
        "name":"Chandra Pavan" ,
        "department": "Department of EEE",
-       "mobile": "7893128515"
+       "mobile": "tel:7893128515"
     },
     {
       "_id": "4",
        "name":"Venkat Vinay" ,
        "department": "Department of Mechanical",
-       "mobile": "7396978839"
+       "mobile": "tel:7396978839"
     },
     {
      "_id": "5",
       "name":"Maruthi Ganesh" ,
       "department": "Department of ECE",
-      "mobile": "9885287550"
+      "mobile": "tel:9885287550"
    },
    {
      "_id": "6",
       "name":"Abhiram" ,
       "department": "Department of CSE",
-      "mobile": "9059350077"
+      "mobile": "tel:9059350077"
    },
    {
      "_id": "7",
       "name":"Sai Charan" ,
       "department": "Department of CSM",
-      "mobile": "8688149845"
+      "mobile": "tel:8688149845"
    },
    {
      "_id": "8",
       "name":"Sai Kiran" ,
       "department": "Department of CSC",
-      "mobile": "8019111644"
+      "mobile": "tel:8019111644"
    },
    {
      "_id": "9",
       "name":"Balaji" ,
       "department": "Department of IT",
-      "mobile": "6303758151"
+      "mobile": "tel:6303758151"
    },
    {
      "_id": "10",
       "name":"Jairaghav" ,
       "department": "Department of MBA",
-      "mobile": "9398660581"
+      "mobile": "tel:9398660581"
    }
 ]
