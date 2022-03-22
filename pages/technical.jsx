@@ -19,6 +19,35 @@ const Technical = () => {
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
+        <Row className={styles.title}>
+            <h1>Technical events by the<span> Department of H&amp;S</span></h1>
+          </Row>
+          <Row>
+              <Col>
+              <Card className={styles.cardDiv}>
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Paper Presentation for first years</h4>
+                  </Card.Title>
+                  <Card.Text>
+                    <p>Organized by:</p>
+                    <a className={styles.icon} href="tel:+917731908405">
+                      <FaPhoneAlt/>
+                      <p>Eeshani</p>
+                    </a>
+                    <a className={styles.icon} href="tel:+919550453527">
+                      <FaPhoneAlt/>
+                      <p>Pranay</p>
+                    </a>
+                    <p>This event is open to all first year students(only) across all colleges</p>
+                  </Card.Text>
+                  <a href='https://rzp.io/l/Eb5oOxwFdI' target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
+                </Card.Body>
+              </Card>
+            </Col>
+           ))
+          }
+          </Row>
           <Row className={styles.title}>
             <h1>Technical events by the<span> Department of CSE</span></h1>
           </Row>

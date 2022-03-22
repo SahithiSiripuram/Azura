@@ -1,30 +1,44 @@
 [
-    {
+   {
        "_id":"1",
-       "title":"Some event name 1" ,
-       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-       "organizer": "ABC",
-       "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-    },
-    {
-        "_id":"2",
-        "title":"Some event name 2" ,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "organizer": "ABC",
-        "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-     },
-     {
-        "_id":"3",
-        "title":"Some event name 3" ,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "organizer": "ABC",
-        "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-     },
-     {
-        "_id":"4",
-        "title":"Some event name 4" ,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "organizer": "ABC",
-        "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-     }
+       "title":"Bug Smash",
+       "organizer1": "P.Sai Teja" ,
+       "organizer2": "S.Ganesh",
+       "mobile 1":  "8978442360",
+       "razorpayLink": "https://rzp.io/l/OxiWhbBig "
+   },
+   {
+       "_id":"2",
+       "title":"Poster Presentation",
+       "organizer 1": "D.sumanth", 
+       "organizer 2": "K.sneha",
+       "mobile 1" : "9963259373",
+       "razorpayLink": "https://rzp.io/l/OxiWhbBig "
+   },
+   {
+       "_id":"3",
+       "title":"Paper Presentation",
+       "organizer 1": "G.Sahithi",
+       "organizer 2": "G.sai chandar",
+       "mobile 1": "9346738840",
+       "razorpayLink": "https://rzp.io/l/z7q95RZ"
+   },    
+   {
+       "_id":"4",
+       "title":"Guess the output",
+       "organizer 1": "B.Harsha vardhan", 
+       "organizer 2": "P.Venkat",
+       "mobile 1" : "8328217494",
+
+       "razorpayLink": " https://rzp.io/l/OxiWhbBig"
+   },
+   {
+       "_id":"5",
+       "title":"Web Designing",
+       "organizer 1": "P.Karthik reddy",
+       "organizer 2": "G.Rahul",
+       "mobile 1" :   "8074339045",
+
+       "razorpayLink": "  https://rzp.io/l/OxiWhbBig"
+   }
 ]
