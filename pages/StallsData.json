@@ -40,11 +40,6 @@
         "organizer": "Ch. Meghana, A.Sindhuja, S.Madhuri"
      },
      {
-        "_id":"9",
-        "title":"Mini Miltia",
-        "organizer": "Prashanth, Nishanth"
-     },
-     {
        "_id":"10",
        "title":"Hit the wicket",
        "organizer": "Rama Krishnam raju"
@@ -58,11 +53,6 @@
         "_id":"12",
         "title":"The Space",
         "organizer": "B Spandana, J.Meghana, A.Jeevitha"
-     },
-     {
-        "_id":"13",
-        "title":"Rocket League Side Swipe",
-        "organizer": "D Rishabh, Y Lokesh"
      },
     {
        "_id":"14",
@@ -96,7 +86,7 @@
       },
       {
          "_id":"20",
-         "title":"The leamon war",
+         "title":"The lemon war",
          "organizer": "Sravan"
       },
     {
@@ -197,43 +187,176 @@
      {
          "_id": "40",
          "title": "Singing Competition(Music Club)",
-         "organizer1": "MahaLakshmi",
-         "organizer2": "Varun Sandesh",
-         "organizer3" :"Umesh"
+         "organizer": "MahaLakshmi, Varun Sandesh, Umesh"
       },
       {
          "_id": "41",
          "title": "Haleem stall",
-         "organizer1": "Ashraf"
+         "organizer": "Ashraf"
       },
       {
          "_id": "42",
          "title": "Sandwich",
-         "organizer1": "Rishika"
+         "organizer": "Rishika"
       },
       {
          "_id": "43",
          "title": "Mohhabat-ka-sharbad",
-         "organizer1": "Fareed"
+         "organizer": "Fareed"
       },
       {
          "_id": "44",
          "title": "Thambola",
-         "organizer1": "Surya"
+         "organizer": "Surya"
       },
       {
          "_id": "45",
          "title": "Treasure hunt",
-         "organizer1": "Sai Prabhu"
+         "organizer": "Sai Prabhu"
       },
       {
          "_id": "46",
          "title": "Meme contest",
-         "organizer1": "Akhil"
+         "organizer": "Akhil"
       },
       {
-         "_id": "46",
+         "_id": "47",
          "title": "Best friend game",
-         "organizer1": "Amulya"
+         "organizer": "Amulya"
+      },
+      {
+         "_id": "48",
+         "title": "Creative gaming",
+         "organizer": "Nivas, Manasa Devi"
+      },
+      {
+         "_id": "49",
+         "title": "Horse tail",
+         "organizer": "Abdul Kalam, Satwik"
+      },
+      {
+         "_id": "50",
+         "title": "Tug of War",
+         "organizer": "Chikitha, Varsha"
+      },
+      {
+         "_id": "51",
+         "title": "Coconut Juice center",
+         "organizer": "U.Venkatesh"
+      },
+      {
+         "_id": "52",
+         "title": "Shawarma",
+         "organizer": "V. Vamshi reddy"
+      },
+      {
+         "_id": "54",
+         "title": "Glass with balloon",
+         "organizer": "Mahmad Afrid"
+      },
+      {
+         "_id": "55",
+         "title": "Cards Game",
+         "organizer": "Mahmad Afrid"
+      },
+      {
+         "_id": "56",
+         "title": "Cups game",
+         "organizer": "Abhishek Muraleedharan"
+      },
+      {
+         "_id": "57",
+         "title": "Khadhu ka kheer",
+         "organizer": "Shaik arbaz khan"
+      },
+      {
+         "_id": "58",
+         "title": "Face the cookie",
+         "organizer": "Deeti Akhila"
+      },
+      {
+         "_id": "59",
+         "title": "Seperation Anxity",
+         "organizer": "Deeti Akhila"
+      },
+      {
+         "_id": "60",
+         "title": "Goli Soda",
+         "organizer": "Charan Kumar"
+      },
+      {
+         "_id": "61",
+         "title": "Rampedup",
+         "organizer": "P. Monica"
+      },
+      {
+         "_id": "62",
+         "title": "Baloon Game",
+         "organizer": "P. Monica"
+      },
+      {
+         "_id": "63",
+         "title": "Baloon Shooting with Gun",
+         "organizer": "Mahmad Afrid"
+      },
+      {
+         "_id": "64",
+         "title": "Pin Game",
+         "organizer": "Mahmad Afrid"
+      },
+      {
+         "_id": "65",
+         "title": "Falooda",
+         "organizer": "Srikrishna Miniga"
+      },
+      {
+         "_id": "66",
+         "title": "Ice Gola",
+         "organizer": "Sumanth"
+      },
+      {
+         "_id": "67",
+         "title": "Flavoured rice and snacks",
+         "organizer": "Manikanta"
+      },
+      {
+         "_id": "68",
+         "title": "Buzz in the wire",
+         "organizer": "Manmatha"
+      },
+      {
+         "_id": "69",
+         "title": "Handicrafts",
+         "organizer": "Pooja"
+      },
+      {
+         "_id": "70",
+         "title": "Halwa",
+         "organizer": "Sonia"
+      },
+      {
+         "_id": "71",
+         "title": "BBQ",
+         "organizer": "9440607177"
+      },
+      {
+          "_id":"72",
+          "title":"Music Quiz",
+          "organizer": "Kavya Sri, Deepika"
+      },
+      {
+          "_id":"73",
+          "title":"Game of Stars",
+          "organizer": "Raj Kumar, Chandhana"
+      },
+      {
+          "_id":"74",
+          "title":"Turkish ice cream",
+          "organizer": "Anusha"
+      },
+      {
+          "_id":"75",
+          "title":"Live Radio",
+          "organizer": "Seethala"
       }
  ]

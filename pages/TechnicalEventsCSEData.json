@@ -1,7 +1,7 @@
 [
    {
        "_id":"1",
-       "title":"Freshman Code Cup",
+       "title":"Code Unit",
        "organizer1": "Avinash",
        "organizer2": "Praveen",
        "mobile1": "tel:8885331511",
@@ -19,7 +19,7 @@
    },    
    {
        "_id":"3",
-       "title":"Code League",
+       "title":"Coding premier league",
        "organizer1": "L. Sahithi",
        "mobile1": "tel:9100629425",
        "razorpayLink": "https://rzp.io/l/OxiWhbBig"
