@@ -141,7 +141,7 @@ const Technical = () => {
                     </Card.Title>
                     <Card.Text>
                     
-                        <p>Organized by:</p>
+                      <p>Organized by:</p>
                       {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
                         <FaPhoneAlt/>
                         <p>{index.organizer1}</p>
