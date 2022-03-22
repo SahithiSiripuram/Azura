@@ -1,30 +1,40 @@
 [
-    {
-       "_id":"1",
-       "title":"Some event name 1" ,
-       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-       "organizer": "ABC",
-       "razorpayLink": "https://rzp.io/l/eeYpqvw5"
+   {
+      "_id":"1",
+      "title":"Capture : The Earth",
+      "organizer1": "V Aravind",
+      "organizer2": "D Anirudh",
+      "mobile1": "8142008668",
+      "mobile2": "6281314012",
+      "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+   },
+   {
+       "_id":"2",
+       "title":"Chess",
+       "organizer1": "Bhargav Simha",
+       "organizer2": "Sai Kumar",
+       "organizer3": "Shiva",
+       "mobile1": "9949240848",
+       "mobile2": "8187833636",
+       "mobile3": "9381004105",
+       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
     },
     {
-        "_id":"2",
-        "title":"Some event name 2" ,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "organizer": "ABC",
-        "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-     },
-     {
-        "_id":"3",
-        "title":"Some event name 3" ,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "organizer": "ABC",
-        "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-     },
-     {
-        "_id":"4",
-        "title":"Some event name 4" ,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "organizer": "ABC",
-        "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-     }
- ]
+       "_id":"3",
+       "title":"Logical thinking",
+       "organizer1": "S Jaya Prakash",
+       "organizer2": "V.Tarun",
+       "mobile1": "8297733290",
+       "mobile2": "8367417533",
+       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+    },
+    {
+       "_id":"4",
+       "title":"Debate",
+       "organizer1": "SK Sahil",
+       "organizer2": "N Rishikesh",
+       "mobile1": "9515762697",
+       "mobile2": "9014722717",
+       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+    }
+]

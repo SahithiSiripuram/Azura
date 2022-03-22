@@ -2,7 +2,6 @@ import styles from '../styles/Home.module.css'
 import NonTechnicalEventsCSEData from './NonTechnicalEventsCSEData.json'
 import NonTechnicalEventsCSCData from './NonTechnicalEventsCSCData.json'
 import NonTechnicalEventsCSMData from './NonTechnicalEventsCSMData.json'
-import NonTechnicalEventsITData from './NonTechnicalEventsITData.json'
 import NonTechnicalEventsECEData from './NonTechnicalEventsECEData.json'
 import NonTechnicalEventsEEEData from './NonTechnicalEventsEEEData.json'
 import NonTechnicalEventsMechData from './NonTechnicalEventsMechData.json'
@@ -97,42 +96,6 @@ const Nontechnical = () => {
           <Row xs={1} sm={1} md={2}> 
           {
             NonTechnicalEventsCSMData.map((index) => (
-              <Col  key={index._id}>
-                <Card className={styles.cardDiv}>
-                  <Card.Body>
-                    <Card.Title>
-                      <h4>{index.title}</h4>
-                    </Card.Title>
-                    <Card.Text>
-                    <>
-                        <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
-                        <FaPhoneAlt/>
-                        <p>{index.organizer1}</p>
-                      </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
-                        <FaPhoneAlt/>
-                        <p>{index.organizer2}</p>
-                      </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
-                        <FaPhoneAlt/>
-                        <p>{index.organizer3}</p>
-                      </a>)}
-                      </>
-                    </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))
-          }
-          </Row>
-          <Row className={styles.title}>
-            <h1>Non Technical events by the<span> Department of IT</span></h1>
-          </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            NonTechnicalEventsITData.map((index) => (
               <Col  key={index._id}>
                 <Card className={styles.cardDiv}>
                   <Card.Body>
