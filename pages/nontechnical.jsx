@@ -33,15 +33,15 @@ const Nontechnical = () => {
                     <Card.Text>
                     <>
                         <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
+                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
                         <FaPhoneAlt/>
                         <p>{index.organizer1}</p>
                       </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
+                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
                         <FaPhoneAlt/>
                         <p>{index.organizer2}</p>
                       </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
+                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
@@ -69,15 +69,15 @@ const Nontechnical = () => {
                     <Card.Text>
                     <>
                         <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
+                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
                         <FaPhoneAlt/>
                         <p>{index.organizer1}</p>
                       </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
+                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
                         <FaPhoneAlt/>
                         <p>{index.organizer2}</p>
                       </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
+                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
@@ -105,15 +105,15 @@ const Nontechnical = () => {
                     <Card.Text>
                     <>
                         <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
+                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
                         <FaPhoneAlt/>
                         <p>{index.organizer1}</p>
                       </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
+                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
                         <FaPhoneAlt/>
                         <p>{index.organizer2}</p>
                       </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
+                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
@@ -141,15 +141,15 @@ const Nontechnical = () => {
                     <Card.Text>
                     <>
                         <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
+                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
                         <FaPhoneAlt/>
                         <p>{index.organizer1}</p>
                       </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
+                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
                         <FaPhoneAlt/>
                         <p>{index.organizer2}</p>
                       </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
+                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
@@ -177,15 +177,15 @@ const Nontechnical = () => {
                     <Card.Text>
                     <>
                         <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
+                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
                         <FaPhoneAlt/>
                         <p>{index.organizer1}</p>
                       </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
+                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
                         <FaPhoneAlt/>
                         <p>{index.organizer2}</p>
                       </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
+                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
@@ -213,15 +213,15 @@ const Nontechnical = () => {
                     <Card.Text>
                     <>
                         <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
+                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
                         <FaPhoneAlt/>
                         <p>{index.organizer1}</p>
                       </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
+                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
                         <FaPhoneAlt/>
                         <p>{index.organizer2}</p>
                       </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
+                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
@@ -249,15 +249,15 @@ const Nontechnical = () => {
                     <Card.Text>
                     <>
                         <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
+                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
                         <FaPhoneAlt/>
                         <p>{index.organizer1}</p>
                       </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
+                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
                         <FaPhoneAlt/>
                         <p>{index.organizer2}</p>
                       </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
+                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
@@ -285,15 +285,15 @@ const Nontechnical = () => {
                     <Card.Text>
                     <>
                         <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href="tel:{index.mobile1}">
+                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
                         <FaPhoneAlt/>
                         <p>{index.organizer1}</p>
                       </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href="tel:{index.mobile2}">
+                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
                         <FaPhoneAlt/>
                         <p>{index.organizer2}</p>
                       </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href="tel:{index.mobile3}">
+                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
                         <FaPhoneAlt/>
                         <p>{index.organizer3}</p>
                       </a>)}
