@@ -43,6 +43,7 @@
 }
 .icon{
   color: whitesmoke;
+  text-decoration: none;
 }
 .cardAnchor{
   text-decoration: none;
@@ -75,7 +76,6 @@
   text-align: left;
   color: whitesmoke;
 }
-
 @media (max-width:600px){
   .timerText{
     font-size: 1em;
