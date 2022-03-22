@@ -1,30 +1,42 @@
 [
-    {
+   {
        "_id":"1",
-       "title":"Some event name 1" ,
-       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-       "organizer": "ABC",
-       "razorpayLink": "https://rzp.io/l/eeYpqvw5"
+       "title":"Paper Presentation",
+       "organizer1": "Pavan kalyan",
+       "organizer2": "Ashwitha",
+       "mobile1": "7013198233",
+       "razorpayLink": "https://rzp.io/l/z7q95RZ"
+   },
+   {
+      "_id":"2",
+      "title":"Poster Presentation",
+      "organizer1": "Sriprada", 
+      "organizer2": "Akashya",
+      "mobile1": "7569838582",
+      "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+   },
+   {
+       "_id":"3",
+       "title":"Project Expo",
+       "organizer1": "Vennela",
+       "organizer2": "Anusha",
+       "mobile1": "8019246194",
+       "razorpayLink": "https://rzp.io/l/z7q95RZ"
     },
     {
-        "_id":"2",
-        "title":"Some event name 2" ,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "organizer": "ABC",
-        "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-     },
-     {
-        "_id":"3",
-        "title":"Some event name 3" ,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "organizer": "ABC",
-        "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-     },
-     {
-        "_id":"4",
-        "title":"Some event name 4" ,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "organizer": "ABC",
-        "razorpayLink": "https://rzp.io/l/eeYpqvw5"
-     }
+       "_id":"4",
+       "title":"Tricky circits",
+       "organizer1": "Teja",
+       "organizer2":  "Nandini",
+       "mobile1": "9963875295",
+       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+    },
+    {
+       "_id":"5",
+       "title":"Technical Quiz",
+       "organizer1": "pravalika", 
+       "organizer2": "sriram",
+       "mobile1": "8074326011",
+       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+    }    
 ]
