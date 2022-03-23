@@ -4,7 +4,6 @@ Link: azura.cmrcet.ac.in
 
 ## Getting Started
 
-Components
 1. git clone https://github.com/SahithiSiripuram/Azura.git
 2. cd Azura
 3. npm i
