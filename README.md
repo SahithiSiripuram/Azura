@@ -1,15 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Link: azura.cmrcet.ac.in
+
 ## Getting Started
 
 Components
-1. Countdown 
-2. Technical Events 
-3. Non Technical Events
-4. Stalls
-5. Team
-6. Address
-
-Todo:
-1. limit grid size 1 col for medium and small devices ad grid size to 4 for large devices
-2. Experiment with css and animations
+1. git clone https://github.com/SahithiSiripuram/Azura.git
+2. cd Azura
+3. npm i
+4. npm install next react react-dom
+5. npm run dev
