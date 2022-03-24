@@ -6,7 +6,7 @@
        "organizer2": "Kore pooja",
        "mobile1": "tel:7893174594",
        "mobile2": "tel:8790831817",
-       "razorpayLink": "https://rzp.io/l/z7q95RZ"
+       "razorpayLink": "https://rzp.io/l/g07RpJUYNN"
    },
    {
        "_id":"2",
@@ -15,7 +15,7 @@
        "organizer2": "Mamatha",
        "mobile1": "tel:6303647811",
        "mobile2": "tel:9515178830",
-       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+       "razorpayLink": "https://rzp.io/l/Bfn6R1t"
    },    
    {
        "_id":"3",
@@ -24,15 +24,15 @@
        "organizer2": "Meghana Gidde",
        "mobile1": "tel:7032318152",
        "mobile2": "tel:7075422472",
-       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+       "razorpayLink": "https://rzp.io/l/xMCS2U6A0F"
    },
    {
        "_id":"4",
        "title":"Market Makers",
        "organizer1": "Abhinaya",
-       "organizer2": "Pojja Patwari",
+       "organizer2": "Pooja Patwari",
        "mobile1": "tel:7672050274",
        "mobile2": "tel:6301856208",
-       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+       "razorpayLink": "https://rzp.io/l/23U3maD"
    }     
 ]

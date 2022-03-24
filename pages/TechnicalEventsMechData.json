@@ -2,46 +2,42 @@
    {
        "_id":"1",
        "title":"Paper Presentation",
-       "organizer1": "Ravi Kiran Sir",
-    "organizer2": "Saraschandra",
-    "organizer3": "Vamsi",
-       "organizer4": "Vinay",
+    "organizer1": "Saraschandra",
+    "organizer2": "Vamsi",
+       "organizer3": "Vinay",
     "mobile1":"tel:9390305806",
     "mobile2":"tel:9390305806",
-       "razorpayLink": "https://rzp.io/l/z7q95RZ"
+       "razorpayLink": "https://rzp.io/l/8PEKAov"
    },
    {
        "_id":"2",
        "title":"Poster Presentation",
-       "organizer1": "Divya Mam",
-    "organizer2": "Sandeep",
-    "organizer3": "Nikash",
-       "organizer4": "Sohel",
+    "organizer1": "Sandeep",
+    "organizer2": "Nikash",
+       "organizer3": "Sohel",
     "mobile1":"tel:8328591928",
     "mobile2":"tel:8880543200",
-       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+       "razorpayLink": "https://rzp.io/l/cmVi43UDiE"
    },    
    {
        "_id":"3",
        "title":"Assembly and Disassembly",
-       "organizer1": "Krishna Varma sir",
-    "organizer2": "Venkat",
-    "organizer3": "Neeraj",
-       "organizer4": "Kaveri",
+    "organizer1": "Venkat",
+    "organizer2": "Neeraj",
+       "organizer3": "Kaveri",
     "mobile1":"tel:7396978839",
     "mobile2":"tel:9603484329",
-       "razorpayLink": "https://rzp.io/l/R9iMEHB"
+       "razorpayLink": "https://rzp.io/l/MFSaYwk"
    },
    {
        "_id":"4",
        "title":"Technical Quiz",
-       "organizer1": "Sammiah sir",
-    "organizer2": "Venu Gopal",
-    "organizer3": "Vamshi Porandla",
-       "organizer4": "Tanuj",
+    "organizer1": "Venu Gopal",
+    "organizer2": "Vamshi Porandla",
+       "organizer3": "Tanuj",
     "mobile1":"tel:6300138099",
     "mobile2":"tel:8801736600",
-       "razorpayLink": "https://rzp.io/l/OxiWhbBig"
+       "razorpayLink": "https://rzp.io/l/yYws0ykA"
    }
    
     

@@ -5,7 +5,7 @@
        "organizer1": "P.Sai Teja" ,
        "organizer2": "S.Ganesh",
        "mobile1":  "tel:+918978442360",
-       "razorpayLink": "https://rzp.io/l/OxiWhbBig "
+       "razorpayLink": "https://rzp.io/l/itb5pxnYe"
    },
    {
        "_id":"2",
@@ -13,7 +13,7 @@
        "organizer1": "D.sumanth", 
        "organizer2": "K.sneha",
        "mobile1" : "tel:+919963259373",
-       "razorpayLink": "https://rzp.io/l/OxiWhbBig "
+       "razorpayLink": "https://rzp.io/l/K6Krnyj"
    },
    {
        "_id":"3",
@@ -21,7 +21,7 @@
        "organizer1": "G.Sahithi",
        "organizer2": "G.sai chandar",
        "mobile1": "tel:+919346738840",
-       "razorpayLink": "https://rzp.io/l/z7q95RZ"
+       "razorpayLink": "https://rzp.io/l/rAG2g2Yn4d"
    },    
    {
        "_id":"4",
@@ -29,7 +29,7 @@
        "organizer1": "B.Harsha vardhan", 
        "organizer2": "P.Venkat",
        "mobile1" : "tel:+918328217494",
-       "razorpayLink": " https://rzp.io/l/OxiWhbBig"
+       "razorpayLink": "https://rzp.io/l/gciKsIpqw"
    },
    {
        "_id":"5",
@@ -37,6 +37,15 @@
        "organizer1": "P.Karthik reddy",
        "organizer2": "G.Rahul",
        "mobile1" :   "tel:+918074339045",
-       "razorpayLink": "  https://rzp.io/l/OxiWhbBig"
-   }
+       "razorpayLink": "https://rzp.io/l/hXQ6tnxQ"
+   },
+   {
+    "_id":"6",
+    "title":"Technical quiz",
+    "organizer1": "G.surya",
+    "organizer2": "I.Bhanu netha",
+    "mobile1 ": "tel:8555072352",
+    "mobile2" :"tel:8074055060",
+   "razorpayLink": "https://rzp.io/l/QW9DnAfy"
+ }
 ]
