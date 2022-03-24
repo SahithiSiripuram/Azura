@@ -1,22 +1,20 @@
 [
-
-   {
-       "_id":"1",
-       "title":"Tech Quiz",
-       "organizer1": "Sk.Shoaib Ahmed",
+  {
+    "_id": "1",
+    "title": "Tech Quiz",
+    "organizer1": "Sk.Shoaib Ahmed",
     "organizer2": "J.Vaagdevi Varma",
     "mobile1": "tel:9705123932",
     "mobile2": "tel:8074318681",
-       "razorpayLink": "https://rzp.io/l/glIJ69Qcj"
-    },
+    "razorpayLink": "https://rzp.io/l/glIJ69Qcj"
+  },
   {
-       "_id":"2",
-       "title":"Paper Presentation",
-       "organizer1": "P.Venkatesh",
+    "_id": "2",
+    "title": "Paper Presentation",
+    "organizer1": "P.Venkatesh",
     "organizer2": "B.Vyshnavi",
     "mobile1": "tel:9848995265",
     "mobile2": "tel:9182105561",
-       "razorpayLink": "https://rzp.io/l/v96qMTI8n"
-    }
-
+    "razorpayLink": "https://rzp.io/l/v96qMTI8n"
+  }
 ]

@@ -1,27 +1,28 @@
 [
-    {
-       "_id":"1",
-       "title":"Paper presentation" ,
-       "description": "This event is for first year students(only) across all campuses. First year students can participate in any event organized by any department",
-       "organizer1": "Eeshani",
-       "organizer2": "Pranay",
-       "organizer3": "Nikith",
-       "mobile1": "tel:+917731908405",
-       "mobile2":"tel:+919550453527",
-       "mobile3": "tel:+919550453527",
-       "razorpayLink": "https://rzp.io/l/Eb5oOxwFdI"
-    },
-    {
-        "_id":"2",
-        "title":"Freshman Code Cup v2.0",
-        "organizer1": "Sahithi",
-        "organizer2": "Deepesh",
-       "organizer3":"Avinash",
-       "organizer4":"Praveen",
-        "mobile1": "tel:9100629425",
-        "mobile2": "tel:9985452459",
-       "mobile3": "tel:8885331511",
-       "mobile4": "tel:9515368147",
-        "razorpayLink": "https://rzp.io/l/sQWm0VwgaX"
-    }
+  {
+    "_id": "1",
+    "title": "Paper presentation",
+    "description": "This event is for first year students(only) across all campuses. First year students can participate in any event organized by any department",
+    "organizer1": "Eeshani",
+    "organizer2": "Pranay",
+    "organizer3": "Nikith",
+    "mobile1": "tel:+917731908405",
+    "mobile2": "tel:+919550453527",
+    "mobile3": "tel:+919550453527",
+    "razorpayLink": "https://rzp.io/l/Eb5oOxwFdI"
+  },
+  {
+    "_id": "2",
+    "title": "Freshman Code Cup v2.0",
+    "description": "Freshman Code Cup is the Flagship Event of League of Coders, the Coding Club of CMRCET which is exclusive for the students of First years.",
+    "organizer1": "Sahithi",
+    "organizer2": "Deepesh",
+    "organizer3": "Avinash",
+    "organizer4": "Praveen",
+    "mobile1": "tel:9100629425",
+    "mobile2": "tel:9985452459",
+    "mobile3": "tel:8885331511",
+    "mobile4": "tel:9515368147",
+    "razorpayLink": "https://rzp.io/l/sQWm0VwgaX"
+  }
 ]
