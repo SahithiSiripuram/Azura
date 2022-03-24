@@ -12,12 +12,15 @@
        "razorpayLink": "https://rzp.io/l/Eb5oOxwFdI"
     },
     {
-        "_id":"1",
-        "title":"Freshman Code Cup",
-        "organizer1": "Avinash",
-        "organizer2": "Praveen",
-        "mobile1": "tel:8885331511",
-        "mobile2": "tel:9515368147",
-        "razorpayLink": "https://rzp.io/l/OxiWhbBig"
-    }
-]
+        "_id":"2",
+        "title":"Freshman Code Cup v2.0",
+        "organizer1": "Sahithi",
+        "organizer2": "Deepesh",
+       "organizer3":"Avinash",
+       "organizer4":"Praveen",
+        "mobile1": "tel:9100629425",
+        "mobile2": "tel:9985452459",
+       "mobile3": "tel:8885331511",
+       "mobile4": "tel:9515368147",
+        "razorpayLink": "https://rzp.io/l/sQWm0VwgaX"
+    },
