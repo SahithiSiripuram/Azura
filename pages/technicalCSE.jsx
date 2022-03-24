@@ -37,7 +37,10 @@ const TechnicalCSE = () => {
                       <FaPhoneAlt/>
                       <p>{index.organizer3}</p>
                     </a>)}
-                    
+                    {index.mobile4 &&(<a className={styles.icon} href={index.mobile4}>
+                      <FaPhoneAlt/>
+                      <p>{index.organizer4}</p>
+                    </a>)}
                   </Card.Text>
                   <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
                 </Card.Body>
