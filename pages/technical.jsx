@@ -1,386 +1,171 @@
-import styles from '../styles/Home.module.css'
-import TechnicalEventsCSEData from './TechnicalEventsCSEData.json'
-import TechnicalEventsCSCData from './TechnicalEventsCSCData.json'
-import TechnicalEventsCSMData from './TechnicalEventsCSMData.json'
-import TechnicalEventsITData from './TechnicalEventsITData.json'
-import TechnicalEventsECEData from './TechnicalEventsECEData.json'
-import TechnicalEventsEEEData from './TechnicalEventsEEEData.json'
-import TechnicalEventsMechData from './TechnicalEventsMechData.json'
-import TechnicalEventsCivilData from './TechnicalEventsCivilData.json'
-import TechnicalEventsMBAData from './TechnicalEventsMBAData.json'
-import TechnicalEventsHnSData from './TechnicalEventsHnSData'
-import React from 'react';
+import Head from 'next/head'
+import Link from 'next/link'
 import {Card, Col, Container,Row} from 'react-bootstrap'
-import {FaPhoneAlt} from "react-icons/fa"
+import styles from '../styles/Home.module.css'
 
-const Technical = () => {
-    return(
-      <div className={styles.container}>
-        <Container>
+
+export default function Home() {
+  return (
+    <div>
+      <Head>
+        <title>Azura 2k22</title>
+        <meta name="description" content="Annual technical symposium of CMRCET" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        <link rel="manifest" href="/site.webmanifest"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet" />
+      </Head>
+      <div>
+        <Container fluid>
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
-        <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of H&amp;S</span></h1>
-          </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsHnSData.map((index) => (
-              <Col  key={index._id}>
-              <Card className={styles.cardDiv}>
+        <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalHns">
                 <Card.Body>
                   <Card.Title>
-                    <h4>{index.title}</h4>
+                    <h4>Technical Events organized for first year students&rarr;</h4>
                   </Card.Title>
-                  <Card.Text>
-                    <p>{index.description}</p>
-                    <p>Organized by:</p>
-                    {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                      <FaPhoneAlt/>
-                      <p>{index.organizer1}</p>
-                    </a>)}
-                    {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                      <FaPhoneAlt/>
-                      <p>{index.organizer2}</p>
-                    </a>)}
-                    {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                      <FaPhoneAlt/>
-                      <p>{index.organizer3}</p>
-                    </a>)}
-                  </Card.Text>
-                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
+                  <Card.Text>Click here to view all technical events organized for first year students</Card.Text>
                 </Card.Body>
+                </Link>
               </Card>
             </Col>
-           ))
-          }
           </Row>
-          <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of CSE</span></h1>
-          </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsCSEData.map((index) => (
-              <Col  key={index._id}>
-              <Card className={styles.cardDiv}>
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalCSE">
                 <Card.Body>
                   <Card.Title>
-                    <h4>{index.title}</h4>
+                    <h4>Technical Events organized by department of CSE&rarr;</h4>
                   </Card.Title>
-                  <Card.Text>
-                  
-                      <p>Organized by:</p>
-                    {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                      <FaPhoneAlt/>
-                      <p>{index.organizer1}</p>
-                    </a>)}
-                    {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                      <FaPhoneAlt/>
-                      <p>{index.organizer2}</p>
-                    </a>)}
-                    {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                      <FaPhoneAlt/>
-                      <p>{index.organizer3}</p>
-                    </a>)}
-                    
-                  </Card.Text>
-                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
+                  <Card.Text>Click here to view all technical events organized by department of CSE</Card.Text>
                 </Card.Body>
+                </Link>
               </Card>
             </Col>
-           ))
-          }
           </Row>
-          <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of CSC (Cyber Security)</span></h1>
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalCSC">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events organized by department of CSC(Cyber Security)&rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events organized by department of CSC</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
           </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsCSCData.map((index) => (
-              <Col  key={index._id}>
-                <Card className={styles.cardDiv}>
-                  <Card.Body>
-                    <Card.Title>
-                      <h4>{index.title}</h4>
-                    </Card.Title>
-                    <Card.Text>
-                    
-                        <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer1}</p>
-                      </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer2}</p>
-                      </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer3}</p>
-                      </a>)}
-                      
-                    </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))
-          }
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalCSM">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events organized by department of CSM(AI&amp;ML)&rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events organized by department of CSM</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
           </Row>
-          <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of CSM (AI ML)</span></h1>
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalIT">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events organized by department of IT&rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events organized by department of IT</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
           </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsCSMData.map((index) => (
-              <Col  key={index._id}>
-                <Card className={styles.cardDiv}>
-                  <Card.Body>
-                    <Card.Title>
-                      <h4>{index.title}</h4>
-                    </Card.Title>
-                    <Card.Text>
-                    
-                      <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer1}</p>
-                      </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer2}</p>
-                      </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer3}</p>
-                      </a>)}
-                      
-                    </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))
-          }
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalECE">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events organized by department of ECE&rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events organized by department of ECE</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
           </Row>
-          <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of IT</span></h1>
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalEEE">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events organized by department of EEE&rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events organized by department of EEE</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
           </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsITData.map((index) => (
-              <Col  key={index._id}>
-                <Card className={styles.cardDiv}>
-                  <Card.Body>
-                    <Card.Title>
-                      <h4>{index.title}</h4>
-                    </Card.Title>
-                    <Card.Text>
-                    
-                        <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer1}</p>
-                      </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer2}</p>
-                      </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer3}</p>
-                      </a>)}
-                      
-                    </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))
-          }
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalMech">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events organized by department of Mechanical Engineering&rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events organized by department of Mechanical Engineering</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
           </Row>
-          <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of ECE</span></h1>
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalCivil">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events organized by department of Civil Engineering&rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events organized by department of Civil Engineering</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
           </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsECEData.map((index) => (
-              <Col  key={index._id}>
-                <Card className={styles.cardDiv}>
-                  <Card.Body>
-                    <Card.Title>
-                      <h4>{index.title}</h4>
-                    </Card.Title>
-                    <Card.Text>
-                    
-                        <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer1}</p>
-                      </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer2}</p>
-                      </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer3}</p>
-                      </a>)}
-                      
-                    </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))
-          }
-          </Row>
-          <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of EEE</span></h1>
-          </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsEEEData.map((index) => (
-              <Col  key={index._id}>
-                <Card className={styles.cardDiv}>
-                  <Card.Body>
-                    <Card.Title>
-                      <h4>{index.title}</h4>
-                    </Card.Title>
-                    <Card.Text>
-                    
-                        <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer1}</p>
-                      </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer2}</p>
-                      </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer3}</p>
-                      </a>)}
-                      
-                    </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))
-          }
-          </Row>
-          <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of Mechanical</span></h1>
-          </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsMechData.map((index) => (
-              <Col  key={index._id}>
-                <Card className={styles.cardDiv}>
-                  <Card.Body>
-                    <Card.Title>
-                      <h4>{index.title}</h4>
-                    </Card.Title>
-                    <Card.Text>
-                    
-                        <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer1}</p>
-                      </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer2}</p>
-                      </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer3}</p>
-                      </a>)}
-                      
-                    </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))
-          }
-          </Row>
-          <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of Civil</span></h1>
-          </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsCivilData.map((index) => (
-              <Col  key={index._id}>
-                <Card className={styles.cardDiv}>
-                  <Card.Body>
-                    <Card.Title>
-                      <h4>{index.title}</h4>
-                    </Card.Title>
-                    <Card.Text>
-                    
-                        <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer1}</p>
-                      </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer2}</p>
-                      </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer3}</p>
-                      </a>)}
-                      
-                    </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))
-          }
-          </Row>
-          <Row className={styles.title}>
-            <h1>Technical events by the<span> Department of MBA</span></h1>
-          </Row>
-          <Row xs={1} sm={1} md={2}> 
-          {
-            TechnicalEventsMBAData.map((index) => (
-              <Col  key={index._id}>
-                <Card className={styles.cardDiv}>
-                  <Card.Body>
-                    <Card.Title>
-                      <h4>{index.title}</h4>
-                    </Card.Title>
-                    <Card.Text>
-                    
-                        <p>Organized by:</p>
-                      {index.mobile1 &&(<a className={styles.icon} href={index.mobile1}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer1}</p>
-                      </a>)}
-                      {index.mobile2 &&(<a className={styles.icon} href={index.mobile2}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer2}</p>
-                      </a>)}
-                      {index.mobile3 &&(<a className={styles.icon} href={index.mobile3}>
-                        <FaPhoneAlt/>
-                        <p>{index.organizer3}</p>
-                      </a>)}
-                      
-                    </Card.Text>
-                    <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>Register</a>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))
-          }
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
+              <Link href="./technicalMBA">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events organized by department of MBA&rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events organized by department of MBA</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
           </Row>
         </Container>
       </div>
-    )
+    </div>
+  )
 }
-export default Technical
