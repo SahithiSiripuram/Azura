@@ -10,7 +10,7 @@ import NonTechnicalEventsMBAData from "./NonTechnicalEventsMBAData.json";
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { FaPhoneAlt } from "react-icons/fa";
-
+import Link from "next/link";
 const Nontechnical = () => {
   return (
     <div className={styles.container}>
@@ -31,14 +31,67 @@ const Nontechnical = () => {
                   <Card.Title>
                     <h4>{index.title}</h4>
                   </Card.Title>
+                  <p>Organized by:</p>
                   <Card.Text>
                     <>
-                      <p>Organized by:</p>
+                      {index.mobile1 && (
+                        <Link href={index.mobile1}>
+                          <a className={styles.icon}>
+                            <FaPhoneAlt />
+                            <br />
+                            <i>{index.organizer1}</i>
+                          </a>
+                        </Link>
+                      )}
+                      {index.mobile2 && (
+                        <a className={styles.icon} href={index.mobile2}>
+                          <br />
+                          <FaPhoneAlt />
+                          <br />
+                          <i>{index.organizer2}</i>
+                        </a>
+                      )}
+                      {index.mobile3 && (
+                        <a className={styles.icon} href={index.mobile3}>
+                          <br />
+                          <FaPhoneAlt />
+                          <br />
+                          <i>{index.organizer3}</i>
+                        </a>
+                      )}
+                    </>
+                  </Card.Text>
+                  <Link href={index.razorpayLink}>
+                    <a target="_blank" rel="noreferrer" className={styles.cardAnchor}>
+                      Register
+                    </a>
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+        <Row className={styles.title}>
+          <h1>
+            Non Technical events by the<span> Department of CSC (Cyber Security)</span>
+          </h1>
+        </Row>
+        <Row xs={1} sm={1} md={2}>
+          {NonTechnicalEventsCSCData.map(index => (
+            <Col key={index._id}>
+              <Card className={styles.cardDiv}>
+                <Card.Body>
+                  <Card.Title>
+                    <h4>{index.title}</h4>
+                  </Card.Title>
+                  <p>Organized by:</p>
+                  <Card.Text>
+                    <>
                       {index.mobile1 && (
                         <a className={styles.icon} href={index.mobile1}>
                           <FaPhoneAlt />
-                          <i>{index.organizer1}</i>
                           <br />
+                          <i>{index.organizer1}</i>
                         </a>
                       )}
                       {index.mobile2 && (
@@ -69,50 +122,6 @@ const Nontechnical = () => {
         </Row>
         <Row className={styles.title}>
           <h1>
-            Non Technical events by the<span> Department of CSC (Cyber Security)</span>
-          </h1>
-        </Row>
-        <Row xs={1} sm={1} md={2}>
-          {NonTechnicalEventsCSCData.map(index => (
-            <Col key={index._id}>
-              <Card className={styles.cardDiv}>
-                <Card.Body>
-                  <Card.Title>
-                    <h4>{index.title}</h4>
-                  </Card.Title>
-                  <Card.Text>
-                    <>
-                      <p>Organized by:</p>
-                      {index.mobile1 && (
-                        <a className={styles.icon} href={index.mobile1}>
-                          <FaPhoneAlt />
-                          <p>{index.organizer1}</p>
-                        </a>
-                      )}
-                      {index.mobile2 && (
-                        <a className={styles.icon} href={index.mobile2}>
-                          <FaPhoneAlt />
-                          <p>{index.organizer2}</p>
-                        </a>
-                      )}
-                      {index.mobile3 && (
-                        <a className={styles.icon} href={index.mobile3}>
-                          <FaPhoneAlt />
-                          <p>{index.organizer3}</p>
-                        </a>
-                      )}
-                    </>
-                  </Card.Text>
-                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>
-                    Register
-                  </a>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Row>
-        <Row className={styles.title}>
-          <h1>
             Non Technical events by the<span> Department of CSM (AI ML)</span>
           </h1>
         </Row>
@@ -124,32 +133,39 @@ const Nontechnical = () => {
                   <Card.Title>
                     <h4>{index.title}</h4>
                   </Card.Title>
+                  <p>Organized by:</p>
                   <Card.Text>
                     <>
-                      <p>Organized by:</p>
                       {index.mobile1 && (
                         <a className={styles.icon} href={index.mobile1}>
                           <FaPhoneAlt />
-                          <p>{index.organizer1}</p>
+                          <br />
+                          <i>{index.organizer1}</i>
                         </a>
                       )}
                       {index.mobile2 && (
                         <a className={styles.icon} href={index.mobile2}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer2}</p>
+                          <br />
+                          <i>{index.organizer2}</i>
                         </a>
                       )}
                       {index.mobile3 && (
                         <a className={styles.icon} href={index.mobile3}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer3}</p>
+                          <br />
+                          <i>{index.organizer3}</i>
                         </a>
                       )}
                     </>
                   </Card.Text>
-                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>
-                    Register
-                  </a>
+                  <Link href={index.razorpayLink}>
+                    <a target="_blank" rel="noreferrer" className={styles.cardAnchor}>
+                      Register
+                    </a>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -168,32 +184,39 @@ const Nontechnical = () => {
                   <Card.Title>
                     <h4>{index.title}</h4>
                   </Card.Title>
+                  <p>Organized by:</p>
                   <Card.Text>
                     <>
-                      <p>Organized by:</p>
                       {index.mobile1 && (
                         <a className={styles.icon} href={index.mobile1}>
                           <FaPhoneAlt />
-                          <p>{index.organizer1}</p>
+                          <br />
+                          <i>{index.organizer1}</i>
                         </a>
                       )}
                       {index.mobile2 && (
                         <a className={styles.icon} href={index.mobile2}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer2}</p>
+                          <br />
+                          <i>{index.organizer2}</i>
                         </a>
                       )}
                       {index.mobile3 && (
                         <a className={styles.icon} href={index.mobile3}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer3}</p>
+                          <br />
+                          <i>{index.organizer3}</i>
                         </a>
                       )}
                     </>
                   </Card.Text>
-                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>
-                    Register
-                  </a>
+                  <Link href={index.razorpayLink}>
+                    <a target="_blank" rel="noreferrer" className={styles.cardAnchor}>
+                      Register
+                    </a>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -212,32 +235,39 @@ const Nontechnical = () => {
                   <Card.Title>
                     <h4>{index.title}</h4>
                   </Card.Title>
+                  <p>Organized by:</p>
                   <Card.Text>
                     <>
-                      <p>Organized by:</p>
                       {index.mobile1 && (
                         <a className={styles.icon} href={index.mobile1}>
                           <FaPhoneAlt />
-                          <p>{index.organizer1}</p>
+                          <br />
+                          <i>{index.organizer1}</i>
                         </a>
                       )}
                       {index.mobile2 && (
                         <a className={styles.icon} href={index.mobile2}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer2}</p>
+                          <br />
+                          <i>{index.organizer2}</i>
                         </a>
                       )}
                       {index.mobile3 && (
                         <a className={styles.icon} href={index.mobile3}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer3}</p>
+                          <br />
+                          <i>{index.organizer3}</i>
                         </a>
                       )}
                     </>
                   </Card.Text>
-                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>
-                    Register
-                  </a>
+                  <Link href={index.razorpayLink}>
+                    <a target="_blank" rel="noreferrer" className={styles.cardAnchor}>
+                      Register
+                    </a>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -256,32 +286,39 @@ const Nontechnical = () => {
                   <Card.Title>
                     <h4>{index.title}</h4>
                   </Card.Title>
+                  <p>Organized by:</p>
                   <Card.Text>
                     <>
-                      <p>Organized by:</p>
                       {index.mobile1 && (
                         <a className={styles.icon} href={index.mobile1}>
                           <FaPhoneAlt />
-                          <p>{index.organizer1}</p>
+                          <br />
+                          <i>{index.organizer1}</i>
                         </a>
                       )}
                       {index.mobile2 && (
                         <a className={styles.icon} href={index.mobile2}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer2}</p>
+                          <br />
+                          <i>{index.organizer2}</i>
                         </a>
                       )}
                       {index.mobile3 && (
                         <a className={styles.icon} href={index.mobile3}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer3}</p>
+                          <br />
+                          <i>{index.organizer3}</i>
                         </a>
                       )}
                     </>
                   </Card.Text>
-                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>
-                    Register
-                  </a>
+                  <Link href={index.razorpayLink}>
+                    <a target="_blank" rel="noreferrer" className={styles.cardAnchor}>
+                      Register
+                    </a>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -300,32 +337,39 @@ const Nontechnical = () => {
                   <Card.Title>
                     <h4>{index.title}</h4>
                   </Card.Title>
+                  <p>Organized by:</p>
                   <Card.Text>
                     <>
-                      <p>Organized by:</p>
                       {index.mobile1 && (
                         <a className={styles.icon} href={index.mobile1}>
                           <FaPhoneAlt />
-                          <p>{index.organizer1}</p>
+                          <br />
+                          <i>{index.organizer1}</i>
                         </a>
                       )}
                       {index.mobile2 && (
                         <a className={styles.icon} href={index.mobile2}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer2}</p>
+                          <br />
+                          <i>{index.organizer2}</i>
                         </a>
                       )}
                       {index.mobile3 && (
                         <a className={styles.icon} href={index.mobile3}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer3}</p>
+                          <br />
+                          <i>{index.organizer3}</i>
                         </a>
                       )}
                     </>
                   </Card.Text>
-                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>
-                    Register
-                  </a>
+                  <Link href={index.razorpayLink}>
+                    <a target="_blank" rel="noreferrer" className={styles.cardAnchor}>
+                      Register
+                    </a>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -344,32 +388,39 @@ const Nontechnical = () => {
                   <Card.Title>
                     <h4>{index.title}</h4>
                   </Card.Title>
+                  <p>Organized by:</p>
                   <Card.Text>
                     <>
-                      <p>Organized by:</p>
                       {index.mobile1 && (
                         <a className={styles.icon} href={index.mobile1}>
                           <FaPhoneAlt />
-                          <p>{index.organizer1}</p>
+                          <br />
+                          <i>{index.organizer1}</i>
                         </a>
                       )}
                       {index.mobile2 && (
                         <a className={styles.icon} href={index.mobile2}>
+                          <br />
                           <FaPhoneAlt />
+                          <br />
                           <p>{index.organizer2}</p>
                         </a>
                       )}
                       {index.mobile3 && (
                         <a className={styles.icon} href={index.mobile3}>
+                          <br />
                           <FaPhoneAlt />
-                          <p>{index.organizer3}</p>
+                          <br />
+                          <i>{index.organizer3}</i>
                         </a>
                       )}
                     </>
                   </Card.Text>
-                  <a href={index.razorpayLink} target="_blank" rel="noreferrer" className={styles.cardAnchor}>
-                    Register
-                  </a>
+                  <Link href={index.razorpayLink}>
+                    <a target="_blank" rel="noreferrer" className={styles.cardAnchor}>
+                      Register
+                    </a>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
