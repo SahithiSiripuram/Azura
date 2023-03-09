@@ -39,7 +39,7 @@ export default function Home() {
           </Row>
           <Row className={styles.description}>
             <h2>
-              26th March 2022
+              4th April 2023
             </h2>
           </Row>
           <Row>
