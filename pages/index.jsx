@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Azura 2k22</title>
+        <title>Azura 2k23</title>
         <meta name="description" content="Annual technical symposium of CMRCET" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -29,7 +29,7 @@ export default function Home() {
         <div id="stars3"></div>
           <Row>
             <h1 className={styles.header}>
-              <span>Azura</span>2k22
+              <span>Azura</span>2k23
             </h1>
           </Row>
           <Row className={styles.description}>
