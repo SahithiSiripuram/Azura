@@ -46,7 +46,7 @@ export default function Home() {
             <Countdown/>
           </Row>
           <Row className={styles.title}>
-            <h1><span>Events </h1>
+            <h1><span>Events </span></h1>
           </Row>
           <Row>
             <Col>
