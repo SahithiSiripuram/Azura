@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Azura 2k23</title>
-        <meta name="description" content="Annual technical symposium of CMRCET" />
+        <meta name="description" content="National level student symposium" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -34,7 +34,7 @@ export default function Home() {
           </Row>
           <Row className={styles.description}>
             <h2>
-              Annual technical symposium of CMRCET
+              National level student symposium
             </h2>
           </Row>
           <Row className={styles.description}>
@@ -46,7 +46,7 @@ export default function Home() {
             <Countdown/>
           </Row>
           <Row className={styles.title}>
-            <h1><span>Events </span>in Azura 2k23</h1>
+            <h1><span>Events </span></h1>
           </Row>
           <Row>
             <Col>
