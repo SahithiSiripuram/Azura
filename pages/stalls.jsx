@@ -11,7 +11,7 @@ const Stalls = () => {
           <div id="stars2"></div>
           <div id="stars3"></div>
           <Row className={styles.title}>
-            <h1><span>Stalls</span> for Azura 2k22</h1>
+            <h1><span>Stalls</span> for Azura 2k23</h1>
           </Row>
           <Row xs={1} sm={1} md={2}>
           {
