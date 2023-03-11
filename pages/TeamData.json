@@ -49,10 +49,9 @@
    },
    {
      "_id": "9",
-      "name":"Santosh/Varsha" ,
+      "name":"Santosh Kumar" ,
       "department": "Department of INF",
-      "mobile": "tel:9110594627",
-      "mobile": "tel:7671814506"
+      "mobile": "tel:9110594627"
    },
    {
      "_id": "10",
