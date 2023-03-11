@@ -21,10 +21,7 @@
       "_id": "4",
        "name":"Vinay" ,
        "department": "Department of Mechanical",
-       "mobile": "tel:9949600415" ,
-       "name":"Kousik" ,
-       "department": "Department of Mechanical",
-       "mobile": "tel:9059998851" 
+       "mobile": "tel:9949600415"  
     },
     {
      "_id": "5",
