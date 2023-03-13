@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
-    "build": "next build",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "vk-miniapps-deploy",
     "start": "react-scripts --openssl-legacy-provider start",
     "lint": "next lint"
   },
