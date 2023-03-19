@@ -13,15 +13,15 @@
     },
     {
         "_id": "3",
-       "name":"Chandra Pavan" ,
+       "name":"Bharath Chandra" ,
        "department": "Department of EEE",
-       "mobile": "tel:7893128515"
+       "mobile": "tel:7095833792"
     },
     {
       "_id": "4",
-       "name":"Vinay" ,
+       "name":"Koushik" ,
        "department": "Department of Mechanical",
-       "mobile": "tel:9949600415"
+       "mobile": "tel:9059998851"
     },
     {
      "_id": "5",
@@ -54,9 +54,15 @@
       "mobile": "tel:9110594627"
    },
    {
-     "_id": "10",
-      "name":"Khageswara rao" ,
-      "department": "Department of MBA",
-      "mobile": "tel:9490261244"
-   }
+      "_id": "10",
+       "name":"Sonu Thahreen" ,
+       "department": "Department of CSD",
+       "mobile": "tel:9502453927"
+    },
+    {
+      "_id": "11",
+       "name":"Khageswara rao" ,
+       "department": "Department of MBA",
+       "mobile": "tel:9490261244"
+    }
 ]
