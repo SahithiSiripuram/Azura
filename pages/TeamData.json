@@ -1,7 +1,7 @@
 [
    {
       "_id": "1",
-      "name":"Sanhith" ,
+      "name":"CH.Sanhith" ,
       "department": "Event Coordinator",
       "mobile": "tel:+919133897791"
    },
@@ -37,9 +37,9 @@
    },
    {
      "_id": "7",
-      "name":"Sai Charan" ,
+      "name":"Goutham Krishna" ,
       "department": "Department of CSM",
-      "mobile": "tel:8688149845"
+      "mobile": "tel:8179353017"
    },
    {
      "_id": "8",
@@ -49,14 +49,14 @@
    },
    {
      "_id": "9",
-      "name":"Santosh" ,
+      "name":"N.Santosh" ,
       "department": "Department of INF",
       "mobile": "tel:9110594627"
    },
    {
      "_id": "10",
-      "name":"Jairaghav" ,
+      "name":"Khageswara rao" ,
       "department": "Department of MBA",
-      "mobile": "tel:9398660581"
+      "mobile": "tel:9490261244"
    }
 ]
