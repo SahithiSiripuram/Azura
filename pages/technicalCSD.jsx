@@ -5,7 +5,7 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import { FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
 
-const TechnicalCSC = () => {
+const TechnicalCSD = () => {
   return (
     <div className={styles.container}>
       <Container>
