@@ -1,5 +1,5 @@
 import styles from "../styles/Home.module.css";
-import TechnicalEventsCSCData from "./TechnicalEventsCSDData.json";
+import TechnicalEventsCSDData from "./TechnicalEventsCSDData.json";
 import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -18,7 +18,7 @@ const TechnicalCSC = () => {
           </h1>
         </Row>
         <Row xs={1} sm={1} md={2}>
-          {TechnicalEventsCSCData.map(index => (
+          {TechnicalEventsCSDData.map(index => (
             <Col key={index._id}>
               <Card className={styles.cardDiv}>
                 <Card.Body>
