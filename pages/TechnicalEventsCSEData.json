@@ -1,33 +1,65 @@
 [
    {
        "_id":"1",
-       "title":"Freshman Code Cup v2.0",
-       "organizer1": "Sahithi",
-       "organizer2": "Deepesh",
-      "organizer3":"Avinash",
-      "organizer4":"Praveen",
-       "mobile1": "tel:9100629425",
-       "mobile2": "tel:9985452459",
-      "mobile3": "tel:8885331511",
-      "mobile4": "tel:9515368147",
-       "razorpayLink": "https://rzp.io/l/sQWm0VwgaX"
+       "title":"App Fest",
+       "organizer1": "M.Priyanka",
+       "organizer2": "Ruheena Nawaz",
+       "mobile1": "tel:9110380475",
+       "mobile2": "tel:7330709398",
+       "razorpayLink": " "
    },
    {
        "_id":"2",
        "title":"Paper Presentation",
-       "organizer1": "Shabana",
-       "organizer2": "Greeshma Reddy",
-       "mobile1": "tel:8523044547",
-       "mobile2": "tel:9390292740",
-       "razorpayLink": "https://rzp.io/l/4VQ1lV4l"
+       "organizer1": "V.Bhavana Reddy",
+       "organizer2": "B.Poojitha",
+       "mobile1": "tel:9100350265",
+       "mobile2": "tel:7569667915",
+       "razorpayLink": " "
    },    
    {
        "_id":"3",
        "title":"Coding premier league",
-       "organizer1": "L. Sahithi",
-       "mobile1": "tel:9100629425",
-       "razorpayLink": "https://rzp.io/l/uNqXHf7LIY"
-   }
-   
-    
+       "organizer1": "V.Datta sai",
+       "organizer2": "Nithin Kumar",
+       "mobile1": "tel:9705374071",
+       "mobile2": "tel:9701195028",
+       "razorpayLink": " "
+   },
+   {
+    "_id":"4",
+    "title":"Tech Quiz",
+    "organizer1": "Durga Bhavani",
+    "organizer2": "P.Varshitha",
+    "mobile1":"tel:7671906990",
+    "mobile2":"tel:9989715055",
+    "razorpayLink": " "
+},
+{
+    "_id":"5",
+    "title":"Blind Coding",
+    "organizer1": "Sai Kiran",
+    "organizer2": "Suchit Paul",
+    "mobile1":"tel:7416612772",
+    "mobile2":"tel:9705511180",
+    "razorpayLink": " "
+},
+{
+    "_id":"6",
+    "title":"Bug Hunter",
+    "organizer1": "Sree Anvitha",
+    "organizer2": "Bhagya Sree",
+    "mobile1":"tel:9492375805",
+    "mobile2":"tel:9014145227",
+    "razorpayLink": " "
+},
+{
+    "_id":"7",
+    "title":"Poster presentation",
+    "organizer1": "S.Chandana",
+    "organizer2": "Saba Zareen",
+    "mobile1":"tel:8328683043",
+    "mobile2":"tel:7993327312",
+    "razorpayLink": " "
+}
 ]

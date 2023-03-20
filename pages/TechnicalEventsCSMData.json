@@ -1,51 +1,110 @@
 [
    {
        "_id":"1",
-       "title":"Bug Smash",
-       "organizer1": "P.Sai Teja" ,
-       "organizer2": "S.Ganesh",
-       "mobile1":  "tel:+918978442360",
-       "razorpayLink": "https://rzp.io/l/itb5pxnYe"
+       "title":"Bug Smash 2.0",
+       "organizer1": "K.Sandeep" ,
+       "organizer2": "P.Sai Teja",
+       "mobile1":  "tel:8978442360",
+       "mobile2":  "tel:7569914905",
+       "razorpayLink": " "
    },
    {
        "_id":"2",
        "title":"Poster Presentation",
-       "organizer1": "D.sumanth", 
-       "organizer2": "K.sneha",
-       "mobile1" : "tel:+919963259373",
-       "razorpayLink": "https://rzp.io/l/K6Krnyj"
+       "organizer1": "V.Mounika", 
+       "organizer2": "M.Kruthika",
+       "mobile1" : "tel:9390428454",
+       "mobile2":  "tel:7995542372",
+       "razorpayLink": " "
    },
    {
        "_id":"3",
        "title":"Paper Presentation",
-       "organizer1": "G.Sahithi",
-       "organizer2": "G.sai chandar",
-       "mobile1": "tel:+919346738840",
-       "razorpayLink": "https://rzp.io/l/rAG2g2Yn4d"
+       "organizer1": "Priyanka",
+       "organizer2": "Rithika",
+       "mobile1": "tel:9393933822",
+       "mobile2":  "tel:7842494413",
+       "razorpayLink": " "
    },    
    {
        "_id":"4",
        "title":"Guess the output",
-       "organizer1": "B.Harsha vardhan", 
-       "organizer2": "P.Venkat",
-       "mobile1" : "tel:+918328217494",
-       "razorpayLink": "https://rzp.io/l/gciKsIpqw"
+       "organizer1": "Venkat", 
+       "organizer2": "Karthik",
+       "mobile1" : "tel:7702160867",
+       "mobile2":  "tel:8074339045",
+       "razorpayLink": " "
    },
    {
        "_id":"5",
-       "title":"Web Designing",
-       "organizer1": "P.Karthik reddy",
-       "organizer2": "G.Rahul",
-       "mobile1" :   "tel:+918074339045",
-       "razorpayLink": "https://rzp.io/l/hXQ6tnxQ"
+       "title":"Web Witz",
+       "organizer1": "Ankit Singh",
+       "organizer2": "Sai Nishwan",
+       "mobile1" :   "tel:7982485791",
+       "mobile2":  "tel:7982975415",
+       "razorpayLink": " "
    },
    {
     "_id":"6",
     "title":"Technical quiz",
-    "organizer1": "G.surya",
-    "organizer2": "I.Bhanu netha",
-    "mobile1 ": "tel:8555072352",
-    "mobile2" :"tel:8074055060",
-   "razorpayLink": "https://rzp.io/l/QW9DnAfy"
- }
+    "organizer1": "P.Sai Kumar",
+    "organizer2": "Akshit",
+    "mobile1 ": "tel:8465061477",
+    "mobile2" :"tel:7981213380",
+   "razorpayLink": " "
+ },
+ {
+    "_id":"7",
+    "title":"Blind Coding",
+    "organizer1": "K.Sowmya",
+    "organizer2": "Sri Harshitha",
+    "mobile1":"tel:7337217323",
+    "mobile2":"tel:8247881397",
+    "razorpayLink": " "
+},
+{
+    "_id":"8",
+    "title":"Code Auction",
+    "organizer1": "Priyal Nagda",
+    "organizer2": "Sree Lakshmi",
+    "mobile1":"tel:6305530753",
+    "mobile2":"tel:9885644002",
+    "razorpayLink": " "
+},
+{
+    "_id":"9",
+    "title":"Fill The Code",
+    "organizer1": "Shriya Chandra",
+    "organizer2": "Sai Sruthi",
+    "mobile1":"tel:9392304475",
+    "mobile2":"tel:8639511294",
+    "razorpayLink": " "
+},
+{
+    "_id":"10",
+    "title":"Tech Conference",
+    "organizer1": "Ayesha",
+    "organizer2": "Lahari",
+    "mobile1":"tel:8125917154",
+    "mobile2":"tel:9396001752",
+    "razorpayLink": " "
+},
+{
+    "_id":"11",
+    "title":"Clash Of Innovators",
+    "organizer1": "Surya Teja",
+    "organizer2": "Sai Nigam",
+    "mobile1":"tel:8309044461",
+    "mobile2":"tel:9014726699",
+    "razorpayLink": " "
+},
+{
+    "_id":"12",
+    "title":"Content Writing",
+    "organizer1": "Harika",
+    "organizer2": "Rashmika",
+    "mobile1":"tel:7702618444",
+    "mobile2":"tel:9014977845",
+    "razorpayLink": " "
+}
 ]
