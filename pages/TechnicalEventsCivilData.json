@@ -2,66 +2,52 @@
    {
        "_id":"1",
        "title":"Paper Presentation",
-       "organizer1": "Bharath",
-      "organizer2": "Prasanna",
-      "organizer3": "Sruthi",
-      "mobile1":"tel:9951276514",
-      "mobile2":"tel:7093171250",
-      "mobile3":"tel:9390089320",
-       "razorpayLink": "https://rzp.io/l/FcVXlacfn"
+       "organizer1": "Kalyani",
+      "organizer2": "Naveen",
+      "mobile1":"tel:9866260243",
+      "mobile2":"tel:6300763029",
+       "razorpayLink": " "
    },
    {
        "_id":"2",
        "title":"Poster Presentation",
-       "organizer1": "Bhargav",
-      "organizer2": "Gayathri",
-      "organizer3": "Surya",
-      "mobile1":"tel:9652975059",
-      "mobile2":"tel:8106427365",
-      "mobile3":"tel:7386206235",
-       "razorpayLink": "https://rzp.io/l/KDWnnkCvK4"
+       "organizer1": "Sruthi",
+      "mobile1":"tel:9618219683",
+       "razorpayLink": " "
    },    
    {
        "_id":"3",
        "title":"Survey Hunt",
-       "organizer1": "Pravalika",
-      "organizer2":"Farzan",
-      "organizer3":"Reshma",
-      "mobile1":"tel:9347341128",
-      "mobile2":"tel:7386950108",
-      "mobile3":"tel:6281481846",
-       "razorpayLink": "https://rzp.io/l/Dd8roEi"
+       "organizer1": "Varshini",
+      "organizer2":"srilatha",
+      "mobile1":"tel:9550658182",
+      "mobile2":"tel:8639673942",
+       "razorpayLink": " "
    },
    {
-       "_id":"4",
-       "title":"Civil Structure",
-       "organizer1": "B.Ganesh Prasad",
-      "organizer2": "Deekshitha",
-      "organizer3":"Yogesh",
-      "mobile1":"tel:9059467964",
-      "mobile2":"tel:9100945590",
-      "mobile3":"tel:7013833046",
-       "razorpayLink": "https://rzp.io/l/QUlNBkEny"
-   },
+    "_id":"4",
+    "title":"Modle Presentation",
+    "organizer1": "Ramya",
+   "mobile1":"tel:7901696285",
+    "razorpayLink": " "
+},
    {
        "_id":"5",
        "title":"TownPlan Drawing",
-       "organizer1": "V.Mounika", 
-      "organizer2": "Raghava",
-      "organizer3": "Sravanthi",
-      "mobile1": "tel:7680945540",
-      "mobile2": "tel:8712264145",
-       "mobile3": "tel:9059712492",
-       "razorpayLink": "https://rzp.io/l/0Zz4OTq4"
+       "organizer1": "Lokesh", 
+      "organizer2": "Sai krishna",
+      "mobile1": "tel:9392854182",
+      "mobile2": "tel:6302043154",
+       "razorpayLink": " "
    },
    {
        "_id":"6",
        "title":"Tech Quiz",
-       "organizer1": "Sagar",
-      "organizer2": "Vinod",
-      "mobile1": "tel:7661931300",
-      "mobile2": "tel:8179598925",
-       "razorpayLink": "https://rzp.io/l/HyDqW0e"
+       "organizer1": "Sadik",
+      "organizer2": "Akhila",
+      "mobile1": "tel:6302097738",
+      "mobile2": "tel:9963577713",
+       "razorpayLink": " "
    }
    
     

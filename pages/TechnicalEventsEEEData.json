@@ -2,41 +2,55 @@
    {
        "_id":"1",
        "title":"Paper Presentation",
-       "organizer1": "Pavan kalyan",
-       "organizer2": "Ashwitha",
-       "mobile1": "tel:7013198233",
-       "razorpayLink": "https://rzp.io/l/BNl2WKw"
+       "organizer1": "Akshaya",
+       "organizer2": "Maharshi",
+       "mobile1": "tel:9603298910",
+       "mobile2": "tel:9347263673",
+       "razorpayLink": " "
    },
    {
       "_id":"2",
       "title":"Poster Presentation",
-      "organizer1": "Sriprada", 
-      "organizer2": "Akashya",
-      "mobile1": "tel:7569838582",
-      "razorpayLink": "https://rzp.io/l/e2HIbtz5R"
+      "organizer1": "Naveendhar", 
+      "organizer2": "Poojitha",
+      "mobile1": "tel:7673916029",
+      "mobile2": "tel:7794053952",
+      "razorpayLink": " "
    },
    {
        "_id":"3",
        "title":"Project Expo",
-       "organizer1": "Vennela",
-       "organizer2": "Anusha",
-       "mobile1": "tel:8019246194",
-       "razorpayLink": "https://rzp.io/l/pftvVgKk"
+       "organizer1": "Harish",
+       "organizer2": "Basheer",
+       "mobile1": "tel:7032242215",
+       "mobile2": "tel:9640373758",
+       "razorpayLink": " "
     },
     {
        "_id":"4",
        "title":"Tricky circits",
-       "organizer1": "Teja",
+       "organizer1": "Anirudh",
        "organizer2":  "Nandini",
-       "mobile1": "tel:9963875295",
-       "razorpayLink": "https://rzp.io/l/vaghmBc1"
+       "mobile1": "tel:6302134081",
+       "mobile2": "tel:7330643659",
+       "razorpayLink": " "
     },
     {
        "_id":"5",
        "title":"Technical Quiz",
-       "organizer1": "pravalika", 
-       "organizer2": "sriram",
-       "mobile1": "tel:8074326011",
-       "razorpayLink": "https://rzp.io/l/vfVF6R5"
-    }    
+       "organizer1": "Praveen", 
+       "organizer2": "Kalyani",
+       "mobile1": "tel:9381717787",
+       "mobile2": "tel:7671019281",
+       "razorpayLink": " "
+    }, 
+    {
+      "_id":"6",
+      "title":"Who Am I?",
+      "organizer1": "Anusha",
+      "organizer2": "Vignesh",
+      "mobile1": "tel:9177357100",
+      "mobile2": "tel:8247424561",
+      "razorpayLink": " "
+   }   
 ]

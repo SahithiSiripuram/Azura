@@ -2,43 +2,41 @@
    {
        "_id":"1",
        "title":"Paper Presentation",
-    "organizer1": "Saraschandra",
-    "organizer2": "Vamsi",
-       "organizer3": "Vinay",
-    "mobile1":"tel:9390305806",
-    "mobile2":"tel:9390305806",
-       "razorpayLink": "https://rzp.io/l/8PEKAov"
+    "organizer1": "Sandeep",
+    "organizer2": "Vamshi",
+    "mobile1":"tel:8328161693",
+       "razorpayLink": " "
    },
    {
        "_id":"2",
        "title":"Poster Presentation",
-    "organizer1": "Sandeep",
-    "organizer2": "Nikash",
-       "organizer3": "Sohel",
-    "mobile1":"tel:8328591928",
-    "mobile2":"tel:8880543200",
-       "razorpayLink": "https://rzp.io/l/cmVi43UDiE"
+    "organizer1": "Kaveri",
+    "mobile1":"tel:8978547009",
+       "razorpayLink": " "
    },    
    {
        "_id":"3",
        "title":"Assembly and Disassembly",
-    "organizer1": "Venkat",
-    "organizer2": "Neeraj",
-       "organizer3": "Kaveri",
-    "mobile1":"tel:7396978839",
-    "mobile2":"tel:9603484329",
-       "razorpayLink": "https://rzp.io/l/MFSaYwk"
+    "organizer1": "Sravanthi",
+    "organizer2": "Manikanta",
+    "mobile1":"tel:7093183246",
+       "razorpayLink": " "
    },
    {
        "_id":"4",
-       "title":"Technical Quiz",
-    "organizer1": "Venu Gopal",
-    "organizer2": "Vamshi Porandla",
-       "organizer3": "Tanuj",
-    "mobile1":"tel:6300138099",
-    "mobile2":"tel:8801736600",
-       "razorpayLink": "https://rzp.io/l/yYws0ykA"
-   }
-   
-    
+       "title":"Technical Debate",
+    "organizer1": "Gayathri",
+    "organizer2": "Suvarna",
+    "mobile1":"tel:6301485547",
+    "mobile2":"tel:8367512022",
+       "razorpayLink": " "
+   },
+   {
+      "_id":"5",
+      "title":"AutoCad Designing",
+   "organizer1": "Dhanush",
+   "organizer2": "Sinchan",
+   "mobile1":"tel:8179124458",
+      "razorpayLink": " "
+  }
 ]

@@ -2,37 +2,64 @@
     {
         "_id":"1",
         "title":"Tech Quiz",
-        "organizer1": "B.deepak",
-		"organizer2": "Thrisha",
-		"mobile1":"tel:8919012886",
-		"mobile2":"tel:9704754658",
-        "razorpayLink": "https://rzp.io/l/jgCO43PuNm"
+        "organizer1": "Ch.Sai Srihari",
+		"organizer2": "Rewanth",
+		"mobile1":"tel:7093209837",
+		"mobile2":"tel:8522923047",
+        "razorpayLink": " "
     },
     {
         "_id":"2",
-        "title":"Tech confrence",
-        "organizer1": "Sahana",
-		"organizer2": "Sandeep Manikanta",
-		"mobile1":"tel:6305545536",
-		"mobile2":"tel:8142674145",
-        "razorpayLink": "https://rzp.io/l/Yixtn0Lam"
+        "title":"Coding Premier League",
+        "organizer1": "Aneesh",
+		"organizer2": "Sohan",
+		"mobile1":"tel:9392897112",
+		"mobile2":"tel:8309332783",
+        "razorpayLink": " "
     },    
     {
         "_id":"3",
         "title":"Paper presentation",
-        "organizer1": "navya",
-		"organizer2":"mounika",
-		"mobile1":"tel:7396339741",
-		"mobile2":"tel:7893316156",
-        "razorpayLink": "https://rzp.io/l/Ua4TseJ"
+        "organizer1": "M.Sandeep",
+		"organizer2":"A.Ajay",
+		"mobile1":"tel:8142674145",
+		"mobile2":"tel:6300006148",
+        "razorpayLink": " "
     },
     {
         "_id":"4",
         "title":"Poster presentation",
-        "organizer1": "M.Tejashwini",
-		"organizer2": "K.Ashritha ",
-		"mobile1":"tel:6302570534",
+        "organizer1": "Varun Reddy",
+		"organizer2": "Md.Umer Thoufiq",
+		"mobile1":"tel:9392421053",
+		"mobile2":"tel:9494019386",
+        "razorpayLink": " "
+    },
+    {
+        "_id":"5",
+        "title":"Web Designing",
+        "organizer1": "Jaithra",
+		"organizer2": "Saketh",
+		"mobile1":"tel:9515446948",
+		"mobile2":"tel:8106802542",
+        "razorpayLink": " "
+    },
+    {
+        "_id":"6",
+        "title":"Model Exhibition",
+        "organizer1": "Ayesha",
+		"organizer2": "Ashritha",
+		"mobile1":"tel:9505870402",
 		"mobile2":"tel:8008216492",
-        "razorpayLink": "https://rzp.io/l/2U6Exv22"
+        "razorpayLink": " "
+    },
+    {
+        "_id":"7",
+        "title":"Bug Bounty",
+        "organizer1": "Sanjana",
+		"organizer2": "Prasanna",
+		"mobile1":"tel:7799435697",
+		"mobile2":"tel:8519888702",
+        "razorpayLink": " "
     }
 ]
