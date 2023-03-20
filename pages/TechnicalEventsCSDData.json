@@ -1,0 +1,31 @@
+[
+   {
+       "_id":"1",
+       "title":"Tech Quiz",
+    "organizer1": "P.Nagesh",
+    "organizer2": "Saketh",
+    "mobile1":"tel:9553017155",
+    "mobile2":"tel:9959019936",
+       "razorpayLink": " "
+   },    
+   {
+       "_id":"2",
+       "title":"Paper Presentation",
+    "organizer1": "vaishnavi",
+    "organizer2": "Varprasad",
+    "organizer3": "Sreeja",
+    "mobile1":"tel:6303816152",
+    "mobile2":"tel:9676822001",
+    "mobile3":"tel:9444355519",
+       "razorpayLink": " "
+   },
+   {
+      "_id": "3",
+      "title": "Guess the Output",
+      "organizer1": "Narendrakumar",
+      "organizer2": "Rishika",
+      "mobile1": "tel:8712213329",
+      "mobile2": "tel:9949535060",
+      "razorpayLink": " "
+    }
+]
