@@ -92,7 +92,7 @@ export default function Home() {
           </Row>
           <Row>
             <Col>
-            <a className={styles.cardSpread} href='https://drive.google.com/file/d/1rC9Bpn2KyiKhFfiFKI-ylpohvbqKBW-b/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+            <a className={styles.cardSpread} href='https://drive.google.com/file/d/1tyWV13qnTp_H9QsA-dH-9twBVPTAV7vK/view?usp=drivesdk' target='_blank' rel='noopener noreferrer'>
               <h4>Rules &amp; Regulations &rarr;</h4>
             </a>
             </Col>
