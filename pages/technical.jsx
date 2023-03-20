@@ -69,6 +69,20 @@ export default function Home() {
           <Row>
             <Col>
             <Card className={styles.cardSpread}>
+              <Link href="./technicalCSD">
+                <Card.Body>
+                  <Card.Title>
+                    <h4>Technical Events organized by department of CSD(Data Science)&rarr;</h4>
+                  </Card.Title>
+                  <Card.Text>Click here to view all technical events organized by department of CSD</Card.Text>
+                </Card.Body>
+                </Link>
+              </Card>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+            <Card className={styles.cardSpread}>
               <Link href="./technicalCSM">
                 <Card.Body>
                   <Card.Title>
