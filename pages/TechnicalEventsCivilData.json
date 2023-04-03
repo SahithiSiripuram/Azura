@@ -12,7 +12,9 @@
        "_id":"2",
        "title":"Poster Presentation",
        "organizer1": "Sruthi",
+       "organizer2": "Lokesh",
       "mobile1":"tel:9618219683",
+      "mobile2":"tel:9392854182",
        "razorpayLink": " "
    },    
    {
@@ -26,22 +28,15 @@
    },
    {
     "_id":"4",
-    "title":"Modle Presentation",
+    "title":"Model Presentation",
     "organizer1": "Ramya",
+    "organizer2":"Saikrishna",
    "mobile1":"tel:7901696285",
+   "mobile2":"tel:6302043154",
     "razorpayLink": " "
 },
    {
        "_id":"5",
-       "title":"TownPlan Drawing",
-       "organizer1": "Lokesh", 
-      "organizer2": "Sai krishna",
-      "mobile1": "tel:9392854182",
-      "mobile2": "tel:6302043154",
-       "razorpayLink": " "
-   },
-   {
-       "_id":"6",
        "title":"Tech Quiz",
        "organizer1": "Sadik",
       "organizer2": "Akhila",

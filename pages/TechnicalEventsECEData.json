@@ -1,13 +1,13 @@
 [
    {
-       "_id":"1",
-       "title":"Tech Conference",
-       "organizer1": "Akshaya",
-       "organizer2": "Anthara",
-       "mobile1": "tel:9848827771",
-       "mobile2": "tel:7799127165",
-       "razorpayLink": " "
-    },
+      "_id":"1",
+      "title":"Alighting talk",
+      "organizer1": "E. Hepsiba",
+      "organizer2": "M. Deepthi",
+      "mobile1": "tel:9177188313",
+      "mobile2": "tel:7569801175",
+      "razorpayLink": " "
+   },
     {
       "_id":"2",
       "title":"Poster Presentation",
@@ -19,11 +19,11 @@
    },
    {
        "_id":"3",
-       "title":"Quiz Time (Tech Quiz)",
-       "organizer1": "Raja sai",
-       "organizer2": "B. Anitha",
-       "mobile1": "tel:8919750454",
-       "mobile2": "tel:6303275438",
+       "title":"Project Expo",
+       "organizer1": "K.Harshith Srinivas",
+       "organizer2": "B.Yakanna",
+       "mobile1": "tel:9618449549",
+       "mobile2": "tel:9676859154",
        "razorpayLink": " "
     },
     {
@@ -48,13 +48,11 @@
     },
     {
       "_id":"6",
-      "title":"Elocution",
-      "organizer1": "M. Madhavi",
-      "organizer2": "G. Vidhya sri",
-      "organizer3": "V. Srija Deepthi",
-      "mobile1": "tel:9849673083",
-      "mobile2": "tel:7396775136",
-      "mobile3": "tel:8247202843",
+      "title":"Decipher",
+      "organizer1": "N.Jahnavi",
+      "organizer2": "Y.Krishna",
+      "mobile1": "tel:6305412187",
+      "mobile2": "tel:9494213307",
       "razorpayLink": " "
    },
    {
@@ -64,24 +62,6 @@
       "organizer2": "D. Puneeth",
       "mobile1": "tel:9985359532",
       "mobile2": "tel:6300885591",
-      "razorpayLink": " "
-   },
-   {
-      "_id":"8",
-      "title":"Alighting talk",
-      "organizer1": "E. Hepsiba",
-      "organizer2": "M. Deepthi",
-      "mobile1": "tel:9177188313",
-      "mobile2": "tel:7569801175",
-      "razorpayLink": " "
-   },
-   {
-      "_id":"9",
-      "title":"Aplos Coding",
-      "organizer1": "P. Bhavana",
-      "organizer2": "Ch. Navyasri",
-      "mobile1": "tel:7993409047",
-      "mobile2": "tel:",
       "razorpayLink": " "
    }
 ]

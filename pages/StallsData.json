@@ -2,12 +2,12 @@
    {
       "_id":"1",
       "title":"Hand Print stall",
-      "organizer": "President StudentCouncil Mourya"
+      "organizer": "Siddartha"
    },
    {
       "_id":"2",
-      "title":"Brick Challenge",
-      "organizer": "Nikhil"
+      "title":"Spiral potato",
+      "organizer": "S.Akash"
    },
    {
        "_id":"3",
@@ -21,58 +21,58 @@
     },
     {
        "_id":"5",
-       "title":"Organic Shop",
-       "organizer": "Keerthi Mani teja"
+       "title":"Smoke biscuits",
+       "organizer": "Manikiran"
     },
     {
        "_id":"6",
-       "title":"Food stall",
-       "organizer": "K Vinutha Sri, N Harshitha"
+       "title":"hyderabadi chudwa",
+       "organizer": "vamsi krishna"
     },
     {
         "_id":"7",
-        "title":"Confession box,Mehendi,game",
-        "organizer": "Sowmya"
+        "title":"momos",
+        "organizer": "ch.krishna teja "
      },
      {
         "_id":"8",
-        "title":"Virtual Reality",
-        "organizer": "Ch. Meghana, A.Sindhuja, S.Madhuri"
+        "title":"ice cola",
+        "organizer": "Ratnakar"
      },
      {
        "_id":"10",
        "title":"Hit the wicket",
-       "organizer": "Rama Krishnam raju"
+       "organizer": "vishnu vardhan"
     },
     {
         "_id":"11",
         "title":"Box Cricket",
-        "organizer": "T Sri Charan"
+        "organizer": "Ch.Vedanth"
      },
      {
         "_id":"12",
-        "title":"The Space",
-        "organizer": "B Spandana, J.Meghana, A.Jeevitha"
+        "title":"watermelon",
+        "organizer": "Murali"
      },
     {
        "_id":"14",
-       "title":"Mobile Photo graphy",
-       "organizer": "Bharath Chandra"
+       "title":"Compatability test",
+       "organizer": "Sathvik"
     },
     {
         "_id":"15",
-        "title":"Picking colour balls",
-        "organizer": "Akshay"
+        "title":"ice pops and nuggets",
+        "organizer": "P.Maha lakshmi"
      },
      {
         "_id":"16",
-        "title":"Go with the flow",
-        "organizer": "Nandini"
+        "title":"womenstruation",
+        "organizer": "S.Maruthi Ganesh"
      },
      {
         "_id":"17",
-        "title":"Dart Game",
-        "organizer": "Minarva"
+        "title":"fruit punch",
+        "organizer": "P.sai charan"
      },
      {
         "_id":"18",
@@ -81,113 +81,113 @@
      },
      {
          "_id":"19",
-         "title":"Hit the glass",
-         "organizer": "Rohith"
+         "title":"Brick lifting",
+         "organizer": "Sai prakash"
       },
       {
          "_id":"20",
-         "title":"The lemon war",
-         "organizer": "Sravan"
+         "title":"Seabuckthorn",
+         "organizer": "Venkatesh"
       },
     {
        "_id":"21",
-       "title":"Matching Game",
-       "organizer": "M.Abhishek"
+       "title":"foot prints",
+       "organizer": "shashank"
     },
     {
        "_id":"22",
-       "title":"Pani puri Competition",
-       "organizer": "Harsha"
+       "title":"roll a dice",
+       "organizer": "Rakesh"
     },
     {
         "_id":"23",
-        "title":"Donuts",
-        "organizer": "Anshu, Harsha, Pranitha, Tejaswi, Jayanti"
+        "title":"Corn,chicken bbq",
+        "organizer": "Vinutha"
      },
     {
        "_id":"24",
-       "title":"YumTum",
-       "organizer": "Sahithi Siripuram"
+       "title":"Balloon Challenge ",
+       "organizer": "Praneetha"
     },
     {
         "_id":"25",
         "title":"Biryani",
-        "organizer": "Praneeth, Devavrath"
+        "organizer": "Pranay"
      },
      {
         "_id":"26",
-        "title":"Happy Sips",
-        "organizer": "Siddharth, Roopak Reddy"
+        "title":"Goli soda",
+        "organizer": "sanhith"
      },
      {
         "_id":"27",
-        "title":"Hand print, brick challenge",
-        "organizer": "Abhiram"
+        "title":"Shawarma",
+        "organizer": "Mourya"
      },
      {
         "_id":"28",
-        "title":"Helium Balloon, jolochip",
-        "organizer": "Sumanth, Varshitha"
+        "title":"Waffilicious",
+        "organizer": "Sameer Ali"
      },
      {
          "_id":"29",
-         "title":"Magic show",
-         "organizer": "N.siddhartha, Y. Arun"
+         "title":"Cotton Candy",
+         "organizer": "Yashwant"
       },
       {
          "_id":"30",
-         "title":"Hawkeye",
-         "organizer": "Balla Ganesh, Sai Prashanth"
+         "title":"B.tech Pizzawala",
+         "organizer": "Suraj"
       },
       {
          "_id":"31",
-         "title":"INKredible tattoos",
-         "organizer": "pooja, Nikhil"
+         "title":"Godavari Ruchulu",
+         "organizer": "Vijay Vardhan"
       },
       {
         "_id":"32",
-        "title":"card towers",
-        "organizer": "ayaz, rishab"
+        "title":"Chocolate Fountain",
+        "organizer": "Pooja"
      },
      {
       "_id":"33",
-      "title":"food plating",
-      "organizer": "ayaz, rishab"
+      "title":"Play Store",
+      "organizer": "Jithin"
    },
      {
          "_id":"34",
-         "title":"Box Cricket",
-         "organizer": "N.Santosh"
+         "title":"Tattoo studio",
+         "organizer": "Prashant"
       },
       {
          "_id":"35",
-         "title":"Goal Kicks",
-         "organizer": "N.Santosh"
+         "title":"Truth or Dare",
+         "organizer": "Prashant"
       },
     {
        "_id":"36",
-       "title":"Milkshakes,  Mocktails, Lassi's, Kulfi",
-       "organizer": "Narsing, Tanuj"
+       "title":"Guess the dailouge",
+       "organizer": "Sailesh"
     },
     {
         "_id":"37",
-        "title":"Chat Bandi",
-        "organizer": "Gopi, Venkat "
+        "title":"Rubik’sWar",
+        "organizer": "Vishnu Srivasthava"
      },
      {
         "_id":"38",
-        "title":"Spin the Wheel, InstaPix",
-        "organizer": "Varun, Vamsi"
+        "title":"Finish the Lyrics,Bracelets",
+        "organizer": "Vinayswi"
      },
      {
         "_id":"39",
-        "title":"Crispy Chicken, Ice Gola",
-        "organizer": "Pranay, Srikar"
+        "title":"Niha9Art Gallery",
+        "organizer": "Niharika"
      },
      {
          "_id": "40",
-         "title": "Singing Competition(Music Club)",
-         "organizer": "MahaLakshmi, Varun Sandesh, Umesh"
+         "title": "POP WITH DART",
+         "organizer": "Kavya"
       },
       {
          "_id": "41",
@@ -206,157 +206,268 @@
       },
       {
          "_id": "44",
-         "title": "Thambola",
-         "organizer": "Surya"
+         "title": "Goal Kicks",
+         "organizer": "Yogesh"
       },
       {
          "_id": "45",
          "title": "Treasure hunt",
-         "organizer": "N.Santosh"
+         "organizer": "Sneha"
       },
       {
          "_id": "46",
-         "title": "Meme contest",
-         "organizer": "Akhil"
+         "title": "Tug of war",
+         "organizer": "Tushar"
       },
       {
          "_id": "47",
-         "title": "Best friend game",
-         "organizer": "Amulya"
+         "title": "Falsa",
+         "organizer": "Roopak"
       },
       {
          "_id": "48",
          "title": "Creative gaming",
-         "organizer": "N.Santosh"
+         "organizer": "R.Pawan"
       },
       {
          "_id": "49",
-         "title": "Horse tail",
-         "organizer": "Abdul Kalam, Satwik"
+         "title": "Hand Printing",
+         "organizer": "Siddartha"
       },
       {
          "_id": "50",
-         "title": "Tug of War",
-         "organizer": "Chikitha, Varsha"
+         "title": "Set of games",
+         "organizer": "Jashuva"
       },
       {
          "_id": "51",
-         "title": "Coconut Juice center",
-         "organizer": "U.Venkatesh"
+         "title": "Push up Challenge",
+         "organizer": "Anoosh"
       },
       {
          "_id": "52",
-         "title": "Shawarma",
-         "organizer": "V. Vamshi reddy"
+         "title": "How Much U Know",
+         "organizer": "Naresh"
       },
       {
          "_id": "54",
-         "title": "Glass with balloon",
-         "organizer": "Mahmad Afrid"
+         "title": "Khova bun",
+         "organizer": "Sarfaraz"
       },
       {
          "_id": "55",
-         "title": "Cards Game",
-         "organizer": "Mahmad Afrid"
+         "title": "Popcorn",
+         "organizer": "Rikshith"
       },
       {
          "_id": "56",
-         "title": "Cups game",
-         "organizer": "Abhishek Muraleedharan"
+         "title": "pencil carving",
+         "organizer": "T Justin Roy"
       },
       {
          "_id": "57",
-         "title": "Khadhu ka kheer",
-         "organizer": "Shaik arbaz khan"
+         "title": "Chocolate confessions",
+         "organizer": "Pravallika"
       },
       {
          "_id": "58",
-         "title": "Face the cookie",
-         "organizer": "Deeti Akhila"
+         "title": "photo booth",
+         "organizer": "kalyani"
       },
       {
          "_id": "59",
-         "title": "Seperation Anxity",
-         "organizer": "Deeti Akhila"
+         "title": "Rose Milk",
+         "organizer": "Manohar"
       },
       {
          "_id": "60",
-         "title": "Goli Soda",
-         "organizer": "Charan Kumar"
+         "title": "Butter Milk ",
+         "organizer": "Fareed"
       },
       {
          "_id": "61",
-         "title": "Rampedup",
-         "organizer": "P. Monica"
+         "title": "Private party room",
+         "organizer": "Harsha"
       },
       {
          "_id": "62",
-         "title": "Baloon Game",
-         "organizer": "P. Monica"
+         "title": "Chicken Items",
+         "organizer": "Ganesh"
       },
       {
          "_id": "63",
          "title": "Baloon Shooting with Gun",
-         "organizer": "Mahmad Afrid"
+         "organizer": "Harshini"
       },
       {
          "_id": "64",
-         "title": "Pin Game",
-         "organizer": "Mahmad Afrid"
+         "title": "Scary House",
+         "organizer": "Shanmukh"
       },
       {
          "_id": "65",
-         "title": "Falooda",
-         "organizer": "Srikrishna Miniga"
+         "title": "Rose Confession",
+         "organizer": "Lanka Sravan Kumar"
       },
       {
          "_id": "66",
-         "title": "Ice Gola",
-         "organizer": "Sumanth"
+         "title": "VR Gaming",
+         "organizer": "BALA"
       },
       {
          "_id": "67",
-         "title": "Flavoured rice and snacks",
-         "organizer": "Manikanta"
+         "title": "tale of magic mirror",
+         "organizer": "M.L.MOUNIKA"
       },
       {
          "_id": "68",
-         "title": "Buzz in the wire",
-         "organizer": "Manmatha"
+         "title": "Mr.360 spin",
+         "organizer": "S.S.ROHAN"
       },
       {
          "_id": "69",
-         "title": "Handicrafts",
-         "organizer": "Pooja"
+         "title": "Name that movie ",
+         "organizer": "A.Rishika"
       },
       {
          "_id": "70",
-         "title": "Halwa",
-         "organizer": "Sonia"
+         "title": "Water Bottles & Cool drinks",
+         "organizer": "Varun "
       },
       {
          "_id": "71",
-         "title": "BBQ",
-         "organizer": "Rohan"
+         "title": "Guess the things",
+         "organizer": "susrutha"
       },
       {
           "_id":"72",
-          "title":"Music Quiz",
-          "organizer": "Kavya Sri, Deepika"
-      },
-      {
-          "_id":"73",
-          "title":"Game of Stars",
-          "organizer": "Raj Kumar, Chandhana"
-      },
-      {
-          "_id":"74",
-          "title":"Turkish ice cream",
+          "title":"Coconut milkshake",
           "organizer": "Anusha"
       },
       {
+          "_id":"73",
+          "title":"Maggi",
+          "organizer": "Mallikarjun reddy"
+      },
+      {
+          "_id":"74",
+          "title":"Ayuzera",
+          "organizer": "K.Harshavardhan"
+      },
+      {
           "_id":"75",
-          "title":"Live Radio",
-          "organizer": "Seethala"
-      }
+          "title":"Sugarcane",
+          "organizer": "Rohan"
+      },
+      {
+         "_id":"76",
+         "title":"lucky 7",
+         "organizer": "akshay"
+     },
+     {
+      "_id":"77",
+      "title":"Cups with balls",
+      "organizer": "Nandhini"
+  },
+  {
+   "_id":"78",
+   "title":"match the cups",
+   "organizer": "manisai"
+},
+{
+   "_id":"79",
+   "title":"Khadu ka kheer",
+   "organizer": "Sahil"
+},
+{
+   "_id":"80",
+   "title":"Khadu ka kheer",
+   "organizer": "Sahil"
+},
+{
+   "_id":"81",
+   "title":"KULFI",
+   "organizer": "Tanuj "
+},
+{
+   "_id":"82",
+   "title":"Badaham Milk",
+   "organizer": "srikar/ jashwanth"
+},
+{
+   "_id":"83",
+   "title":"Dare to do",
+   "organizer": "Manikanta"
+},
+{
+   "_id":"84",
+   "title":"AR Games",
+   "organizer": "yeshwanth"
+},
+{
+   "_id":"85",
+   "title":"Refreshing childhood memories",
+   "organizer": "nithin"
+},
+{
+   "_id":"86",
+   "title":"balloon cup pyramid",
+   "organizer": "rajkumar"
+},
+{
+   "_id":"87",
+   "title":"MOJITOS",
+   "organizer": "Narsing"
+},
+{
+   "_id":"88",
+   "title":"Coconut Water ",
+   "organizer": "Venkatesh "
+},
+{
+   "_id":"89",
+   "title":"Burgers Sandwich& Hair Style ",
+   "organizer": "Surya "
+},
+{
+   "_id":"90",
+   "title":"Pencil &mind game ",
+   "organizer": "Azeez "
+},
+{
+   "_id":"91",
+   "title":"pasta",
+   "organizer": "rohit sai"
+},
+{
+   "_id":"92",
+   "title":"Whisper challenge",
+   "organizer": "rohit"
+},
+{
+   "_id":"93",
+   "title":"Number Match Game",
+   "organizer": "bhaskar "
+},
+{
+   "_id":"94",
+   "title":"Sharjah Taguthaventra",
+   "organizer": "Meghan "
+},
+{
+   "_id":"95",
+   "title":"Lucky step",
+   "organizer": "Samitha"
+},
+{
+   "_id":"96",
+   "title":"smash karts",
+   "organizer": "Bharadwaj"
+},
+{
+   "_id":"97",
+   "title":"Finger prints ",
+   "organizer": "kalyani"
+}
+
  ]
