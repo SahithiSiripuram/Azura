@@ -1,22 +1,22 @@
 [
     {
         "_id":"1",
-        "title":"Tech Quiz",
-        "organizer1": "Ch.Sai Srihari",
-		"organizer2": "Rewanth",
-		"mobile1":"tel:7093209837",
-		"mobile2":"tel:8522923047",
+        "title":"Break the query",
+        "organizer1": "Aneesh",
+		"organizer2": "Ch.Sai Srihari",
+		"mobile1":"tel:9392897112",
+		"mobile2":"tel:7093209837",
         "razorpayLink": " "
     },
     {
         "_id":"2",
-        "title":"Coding Premier League",
-        "organizer1": "Aneesh",
-		"organizer2": "Sohan",
-		"mobile1":"tel:9392897112",
-		"mobile2":"tel:8309332783",
+        "title":"Bug Bounty",
+        "organizer1": "Sanjana",
+		"organizer2": "Prasanna",
+		"mobile1":"tel:7799435697",
+		"mobile2":"tel:8519888702",
         "razorpayLink": " "
-    },    
+    },
     {
         "_id":"3",
         "title":"Paper presentation",
@@ -51,15 +51,6 @@
 		"organizer2": "Ashritha",
 		"mobile1":"tel:9505870402",
 		"mobile2":"tel:8008216492",
-        "razorpayLink": " "
-    },
-    {
-        "_id":"7",
-        "title":"Bug Bounty",
-        "organizer1": "Sanjana",
-		"organizer2": "Prasanna",
-		"mobile1":"tel:7799435697",
-		"mobile2":"tel:8519888702",
         "razorpayLink": " "
     }
 ]

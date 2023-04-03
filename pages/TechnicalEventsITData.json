@@ -1,20 +1,16 @@
 [
   {
     "_id": "1",
-    "title": "Tech Quiz",
-    "organizer1": "G. Balakrishna Prasad",
-    "organizer2": "T. Indhu",
-    "mobile1": "tel:6304023739",
-    "mobile2": "tel:9676939188",
+    "title": "Paper Presentation",
+    "organizer1": "D.Neha",
+    "mobile1": "tel:7981564984",
     "razorpayLink": " "
   },
   {
     "_id": "2",
-    "title": "Paper Presentation & Poster Presentation",
+    "title": "Poster Presentation",
     "organizer1": "K.Vaishnavi",
-    "organizer2": "D.Neha",
     "mobile1": "tel:9390692340",
-    "mobile2": "tel:7981564984",
     "razorpayLink": " "
   },
   {

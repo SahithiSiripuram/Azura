@@ -27,14 +27,14 @@
        "razorpayLink": " "
    },
    {
-    "_id":"4",
-    "title":"Tech Quiz",
-    "organizer1": "Durga Bhavani",
-    "organizer2": "P.Varshitha",
-    "mobile1":"tel:7671906990",
-    "mobile2":"tel:9989715055",
+    "_id":"8",
+    "title":"Freshman Coding cup",
+    "organizer1": "Bhake Shashank",
+    "organizer2": "K. Chandrashekar",
+    "mobile1":"tel:9398168184",
+    "mobile2":"tel:9110536585",
     "razorpayLink": " "
-},
+}
 {
     "_id":"5",
     "title":"Blind Coding",
